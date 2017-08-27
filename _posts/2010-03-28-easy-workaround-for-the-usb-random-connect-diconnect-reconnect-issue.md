@@ -3,7 +3,6 @@ id: 22
 title: Easy workaround for the USB random connect / diconnect / reconnect issue
 date: 2010-03-28T00:05:47+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=22
 permalink: /2010/03/easy-workaround-for-the-usb-random-connect-diconnect-reconnect-issue/
 categories:

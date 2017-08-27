@@ -3,7 +3,6 @@ id: 408
 title: Controlling the physical storage location of the Azure Storage Emulator
 date: 2014-09-25T13:49:44+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=408
 permalink: /2014/09/controlling-the-physical-storage-location-of-the-azure-storage-emulator/
 sharing_disabled:

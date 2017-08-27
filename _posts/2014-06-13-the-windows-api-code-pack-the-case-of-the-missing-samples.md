@@ -3,7 +3,6 @@ id: 334
 title: 'The Windows API Code Pack &#8211; the case of the missing samples'
 date: 2014-06-13T15:35:55+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=334
 permalink: /2014/06/the-windows-api-code-pack-the-case-of-the-missing-samples/
 geo_public:

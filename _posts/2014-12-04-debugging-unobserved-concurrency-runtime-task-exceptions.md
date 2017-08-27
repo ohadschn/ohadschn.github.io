@@ -3,7 +3,6 @@ id: 427
 title: Debugging unobserved concurrency runtime task exceptions
 date: 2014-12-04T21:42:19+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=427
 permalink: /2014/12/debugging-unobserved-concurrency-runtime-task-exceptions/
 sharing_disabled:

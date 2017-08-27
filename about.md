@@ -3,7 +3,6 @@ id: 467
 title: About
 date: 2015-05-01T18:52:54+00:00
 author: ohadsc
-layout: page
 guid: http://www.ohadsoft.com/?page_id=467
 ---
 Hi!

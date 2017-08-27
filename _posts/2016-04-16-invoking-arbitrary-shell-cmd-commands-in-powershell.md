@@ -3,7 +3,6 @@ id: 670
 title: Invoking arbitrary shell (cmd) commands with retries in PowerShell
 date: 2016-04-16T18:25:16+00:00
 author: ohadsc
-layout: post
 guid: http://www.ohadsoft.com/?p=670
 permalink: /2016/04/invoking-arbitrary-shell-cmd-commands-in-powershell/
 categories:

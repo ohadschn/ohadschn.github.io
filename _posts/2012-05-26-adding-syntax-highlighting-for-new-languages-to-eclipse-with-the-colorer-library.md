@@ -3,7 +3,6 @@ id: 42
 title: Adding syntax highlighting for new languages to Eclipse with the Colorer library
 date: 2012-05-26T12:52:11+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=42
 permalink: /2012/05/adding-syntax-highlighting-for-new-languages-to-eclipse-with-the-colorer-library/
 categories:

@@ -3,7 +3,6 @@ id: 433
 title: Posting forms with Knockout to dynamic Sammy routes
 date: 2014-12-27T15:03:02+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=433
 permalink: /2014/12/posting-forms-with-knockout-to-dynamic-sammy-routes/
 sharing_disabled:

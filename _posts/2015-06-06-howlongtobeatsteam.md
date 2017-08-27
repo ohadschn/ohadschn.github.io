@@ -3,7 +3,6 @@ id: 552
 title: HowLongToBeatSteam
 date: 2015-06-06T08:41:58+00:00
 author: ohadsc
-layout: post
 guid: http://www.ohadsoft.com/?p=552
 permalink: /2015/06/howlongtobeatsteam/
 categories:

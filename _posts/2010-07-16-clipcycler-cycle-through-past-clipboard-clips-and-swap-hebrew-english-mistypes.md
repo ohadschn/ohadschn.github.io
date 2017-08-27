@@ -3,7 +3,6 @@ id: 35
 title: 'ClipCycler &#8211; Cycle through past clipboard clips (and swap Hebrew / English mistypes)'
 date: 2010-07-16T20:28:24+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=35
 permalink: /2010/07/clipcycler-cycle-through-past-clipboard-clips-and-swap-hebrew-english-mistypes/
 categories:

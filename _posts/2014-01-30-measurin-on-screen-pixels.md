@@ -3,7 +3,6 @@ id: 167
 title: Measuring on-screen pixels
 date: 2014-01-30T17:42:26+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=167
 permalink: /2014/01/measurin-on-screen-pixels/
 categories:

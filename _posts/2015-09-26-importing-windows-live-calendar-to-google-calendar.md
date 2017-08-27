@@ -3,7 +3,6 @@ id: 582
 title: Importing Windows Live Calendar to Google Calendar
 date: 2015-09-26T17:00:05+00:00
 author: ohadsc
-layout: post
 guid: http://www.ohadsoft.com/?p=582
 permalink: /2015/09/importing-windows-live-calendar-to-google-calendar/
 categories:

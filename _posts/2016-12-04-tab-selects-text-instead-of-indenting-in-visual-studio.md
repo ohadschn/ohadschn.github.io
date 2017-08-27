@@ -3,7 +3,6 @@ id: 757
 title: Tab selects text instead of indenting in Visual Studio
 date: 2016-12-04T15:43:10+00:00
 author: ohadsc
-layout: post
 guid: http://www.ohadsoft.com/?p=757
 permalink: /2016/12/tab-selects-text-instead-of-indenting-in-visual-studio/
 categories:

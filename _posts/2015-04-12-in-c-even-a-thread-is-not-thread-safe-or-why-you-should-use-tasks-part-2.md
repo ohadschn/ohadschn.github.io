@@ -3,7 +3,6 @@ id: 465
 title: 'In C++, even a thread is not thread-safe (or: why you should use tasks part 2)'
 date: 2015-04-12T22:14:17+00:00
 author: ohadsc
-layout: post
 guid: https://ohadsc.wordpress.com/?p=465
 permalink: /2015/04/in-c-even-a-thread-is-not-thread-safe-or-why-you-should-use-tasks-part-2/
 publicize_google_plus_url:

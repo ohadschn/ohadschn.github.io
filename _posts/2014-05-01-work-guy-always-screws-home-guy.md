@@ -3,7 +3,6 @@ id: 222
 title: 'Don&#8217;t let Work Guy screw Home Guy over'
 date: 2014-05-01T00:03:22+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=222
 permalink: /2014/05/work-guy-always-screws-home-guy/
 categories:

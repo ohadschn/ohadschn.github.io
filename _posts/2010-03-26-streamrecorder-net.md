@@ -4,7 +4,6 @@ title: StreamRecorder.NET
 date: 2010-03-26T02:29:40+00:00
 author: ohadsc
 excerpt: Record streaming media with StreamRecorder.NET
-layout: post
 guid: http://ohadsc.wordpress.com/?p=12
 permalink: /2010/03/streamrecorder-net/
 categories:

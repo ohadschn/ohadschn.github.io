@@ -3,7 +3,6 @@ id: 248
 title: Creating managed wrappers for COM interfaces
 date: 2014-05-31T21:11:35+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=248
 permalink: /2014/05/creating-managed-wrappers-for-com-interfaces/
 geo_public:

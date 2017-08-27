@@ -3,7 +3,6 @@ id: 734
 title: 'ET4W &#8211; generate C# ETW classes from JSON event specifications using T4'
 date: 2016-10-21T15:33:14+00:00
 author: ohadsc
-layout: post
 guid: http://www.ohadsoft.com/?p=734
 permalink: /2016/10/et4w-generate-c-etw-classes-from-json-event-specifications-using-t4/
 categories:

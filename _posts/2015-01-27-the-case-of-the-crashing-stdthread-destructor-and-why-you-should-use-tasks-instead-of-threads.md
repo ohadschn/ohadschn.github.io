@@ -3,7 +3,6 @@ id: 458
 title: The case of the crashing std::thread destructor and why you should use tasks instead of threads
 date: 2015-01-27T23:36:21+00:00
 author: ohadsc
-layout: post
 guid: https://ohadsc.wordpress.com/?p=458
 permalink: /2015/01/the-case-of-the-crashing-stdthread-destructor-and-why-you-should-use-tasks-instead-of-threads/
 publicize_facebook_url:

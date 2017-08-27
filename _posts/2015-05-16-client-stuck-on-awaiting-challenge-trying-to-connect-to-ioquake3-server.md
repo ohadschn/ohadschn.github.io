@@ -3,7 +3,6 @@ id: 532
 title: 'Client stuck on &#8220;Awaiting Challenge&#8221; trying to connect to ioquake3 server'
 date: 2015-05-16T10:55:46+00:00
 author: ohadsc
-layout: post
 guid: http://www.ohadsoft.com/?p=532
 permalink: /2015/05/client-stuck-on-awaiting-challenge-trying-to-connect-to-ioquake3-server/
 categories:

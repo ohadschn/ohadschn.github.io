@@ -3,7 +3,6 @@ id: 653
 title: 'Creating beautiful WordPress header images for free &#8211; legally'
 date: 2016-04-04T21:03:47+00:00
 author: ohadsc
-layout: post
 guid: http://www.ohadsoft.com/?p=653
 permalink: /2016/04/creating-beautiful-wordpress-header-images-for-free-legally/
 categories:

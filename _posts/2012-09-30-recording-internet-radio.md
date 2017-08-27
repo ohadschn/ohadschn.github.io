@@ -3,7 +3,6 @@ id: 77
 title: Recording internet radio
 date: 2012-09-30T14:53:06+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=77
 permalink: /2012/09/recording-internet-radio/
 categories:

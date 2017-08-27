@@ -3,7 +3,6 @@ id: 750
 title: Adding reddit RSS feeds to Outlook
 date: 2016-10-29T11:10:19+00:00
 author: ohadsc
-layout: post
 guid: http://www.ohadsoft.com/?p=750
 permalink: /2016/10/adding-reddit-rss-feeds-to-outlook/
 categories:

@@ -3,7 +3,6 @@ id: 30
 title: Using your mobile phone as a remote control for your PC / Laptop (via Bluetooth)
 date: 2010-04-14T02:59:38+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=30
 permalink: /2010/04/using-your-mobile-phone-as-a-remote-control-for-your-pc-laptop-via-bluetooth/
 categories:

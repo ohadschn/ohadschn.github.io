@@ -3,7 +3,6 @@ id: 74
 title: Working with the new SourceForge svn+ssh protocol in Windows
 date: 2012-09-30T14:25:30+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=74
 permalink: /2012/09/working-with-the-new-sourceforge-svnssh-protocol-in-windows/
 categories:

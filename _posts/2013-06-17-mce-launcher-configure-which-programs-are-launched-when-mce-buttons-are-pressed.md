@@ -3,7 +3,6 @@ id: 101
 title: 'MCE Launcher &#8211; Configure which programs are launched when MCE buttons are pressed'
 date: 2013-06-17T00:23:19+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=101
 permalink: /2013/06/mce-launcher-configure-which-programs-are-launched-when-mce-buttons-are-pressed/
 categories:

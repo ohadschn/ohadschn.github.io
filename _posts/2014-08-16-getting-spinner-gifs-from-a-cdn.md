@@ -3,7 +3,6 @@ id: 387
 title: Getting spinner gifs from a CDN
 date: 2014-08-16T23:31:17+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=387
 permalink: /2014/08/getting-spinner-gifs-from-a-cdn/
 sharing_disabled:

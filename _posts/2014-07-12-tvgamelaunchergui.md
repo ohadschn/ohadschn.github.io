@@ -3,7 +3,6 @@ id: 382
 title: TvGameLauncherGUI
 date: 2014-07-12T18:38:51+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/2014/07/12/tvgamelaunchergui/
 permalink: /2014/07/tvgamelaunchergui/
 sharing_disabled:

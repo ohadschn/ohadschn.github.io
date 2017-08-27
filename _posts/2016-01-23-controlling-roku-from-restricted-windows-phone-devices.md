@@ -3,7 +3,6 @@ id: 591
 title: Controlling Roku devices from restricted Windows Phone Devices
 date: 2016-01-23T17:23:24+00:00
 author: ohadsc
-layout: post
 guid: http://www.ohadsoft.com/?p=591
 permalink: /2016/01/controlling-roku-from-restricted-windows-phone-devices/
 categories:

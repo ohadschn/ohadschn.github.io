@@ -3,7 +3,6 @@ id: 83
 title: 'Tagger# &#8211; command-line media tagger based on TagLib#'
 date: 2012-10-01T14:52:00+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=83
 permalink: /2012/10/tagger-command-line-media-tagger-based-on-taglib/
 categories:

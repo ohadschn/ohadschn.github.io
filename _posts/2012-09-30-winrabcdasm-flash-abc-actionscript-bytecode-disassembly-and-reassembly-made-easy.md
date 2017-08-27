@@ -3,7 +3,6 @@ id: 70
 title: 'WinRABCDAsm &#8211; Flash ABC (ActionScript Bytecode) disassembly and reassembly made easy'
 date: 2012-09-30T13:54:05+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=70
 permalink: /2012/09/winrabcdasm-flash-abc-actionscript-bytecode-disassembly-and-reassembly-made-easy/
 categories:

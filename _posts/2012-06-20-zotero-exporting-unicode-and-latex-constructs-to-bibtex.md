@@ -3,7 +3,6 @@ id: 55
 title: 'Zotero &#8211; exporting Unicode and LaTeX constructs to BibTex'
 date: 2012-06-20T00:16:11+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=55
 permalink: /2012/06/zotero-exporting-unicode-and-latex-constructs-to-bibtex/
 categories:

@@ -3,7 +3,6 @@ id: 155
 title: Introducing TvGameLauncher
 date: 2014-01-12T00:02:51+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=155
 permalink: /2014/01/introducing-tvgamelauncher/
 categories:

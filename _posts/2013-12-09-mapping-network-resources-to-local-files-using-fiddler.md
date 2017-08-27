@@ -3,7 +3,6 @@ id: 130
 title: Mapping network resources to local files using Fiddler
 date: 2013-12-09T17:28:19+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=130
 permalink: /2013/12/mapping-network-resources-to-local-files-using-fiddler/
 categories:

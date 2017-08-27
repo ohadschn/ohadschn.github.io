@@ -3,7 +3,6 @@ id: 151
 title: Playing PC games on your HDMI-connected TV
 date: 2014-01-04T02:57:17+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=151
 permalink: /2014/01/playing-pc-games-on-your-hdmi-connected-tv/
 categories:

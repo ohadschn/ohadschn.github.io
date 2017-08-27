@@ -3,7 +3,6 @@ id: 415
 title: Some WinDbg tips
 date: 2014-10-30T00:20:51+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=415
 permalink: /2014/10/some-windbg-tips/
 sharing_disabled:

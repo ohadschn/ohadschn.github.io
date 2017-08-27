@@ -3,7 +3,6 @@ id: 629
 title: Redirecting all URLs to their HTTPS WWW equivalents
 date: 2016-04-02T17:54:02+00:00
 author: ohadsc
-layout: post
 guid: http://www.ohadsoft.com/?p=629
 permalink: /2016/04/redirecting-all-urls-to-their-https-www-equivalents/
 categories:

@@ -3,7 +3,6 @@ id: 430
 title: Static definitions in header files may cause malloc errors on application teardown
 date: 2014-12-12T17:50:47+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=430
 permalink: /2014/12/static-definitions-in-header-files-may-cause-malloc-errors-on-application-teardown/
 sharing_disabled:

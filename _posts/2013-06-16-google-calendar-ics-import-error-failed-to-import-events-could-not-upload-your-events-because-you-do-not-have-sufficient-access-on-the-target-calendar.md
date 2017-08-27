@@ -3,7 +3,6 @@ id: 98
 title: 'Google Calendar ICS import error: &#8220;Failed to import events: Could not upload your events because you do not have sufficient access on the target calendar&#8221;'
 date: 2013-06-16T23:40:17+00:00
 author: ohadsc
-layout: post
 guid: http://ohadsc.wordpress.com/?p=98
 permalink: /2013/06/google-calendar-ics-import-error-failed-to-import-events-could-not-upload-your-events-because-you-do-not-have-sufficient-access-on-the-target-calendar/
 categories:
