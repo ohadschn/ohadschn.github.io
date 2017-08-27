@@ -1,4 +1,4 @@
-Repo for https://www.ohadsoft.com (https://username.github.io).
+Repo for https://www.ohadsoft.com (https://ohadschn.github.io/).
 
 ## Welcome to GitHub Pages
 
