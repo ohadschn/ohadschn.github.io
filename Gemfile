@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem 'minima'
+gem 'minimal-mistakes-jekyll'
