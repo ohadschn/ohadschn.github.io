@@ -15,6 +15,5 @@ My online presence:
   * <a href="http://stackoverflow.com/users/67824/ohad-schneider" target="_blank">StackOverflow</a>
   * <a href="https://sourceforge.net/u/ohadsc/profile/" target="_blank">Sourceforge</a>
   * <a href="https://github.com/ohadschn" target="_blank">GitHub</a>
-  * <a href="http://www.tau.ac.il/~ohadschn/" target="_blank">Research</a>
 
 Feel free to check out the posts and enjoy the content 🙂
