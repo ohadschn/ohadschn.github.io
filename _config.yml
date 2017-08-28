@@ -57,8 +57,8 @@ analytics:
 author:
   name             : "Ohad Schneider"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Developer Extraordinaire"
-  location         : "Israel"
+  bio              : "Software Developer to the max"
+  location         : 
   email            : "ohad188@gmail.com"
   uri              :
   bitbucket        :
@@ -68,7 +68,7 @@ author:
   facebook         :
   foursquare       :
   github           : "ohadschn"
-  gitlab           : "ohadschn"
+  gitlab           : 
   google_plus      :
   keybase          :
   instagram        :
@@ -83,7 +83,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : "OhadSchneider"
+  youtube          : 
 
 
 # Reading Files
