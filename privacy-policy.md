@@ -2,12 +2,13 @@
 id: 515
 title: Privacy Policy
 date: 2015-05-02T09:30:17+00:00
+layout: single
 author: ohadsc
 guid: http://www.ohadsoft.com/?page_id=515
 ---
 At OhadSoft, the privacy of our visitors is of extreme importance to us. This privacy policy document outlines the types of personal information received and collected by OhadSoft and how it is used. 
 
-If you require any more information or have any questions about our privacy policy, please feel free to contact us by email at <contact@ohadsoft.com>. 
+If you require any more information or have any questions about our privacy policy, please feel free to contact us by using the contact link in the upper-right menu. 
 
 **Log Files**
 

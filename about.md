@@ -6,8 +6,4 @@ layout: single
 author: ohadsc
 guid: http://www.ohadsoft.com/?page_id=467
 ---
-Hi!
-
 My name is Ohad Schneider and I work as a software developer for Microsoft. This blog is mainly about software development, but from time to time I&#8217;ll talk about free software for end users that I write in my spare time (most of it open source).
-
-Feel free to check out the posts and enjoy the content 🙂
