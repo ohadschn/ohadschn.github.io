@@ -220,6 +220,14 @@ defaults:
       comments: true
       share: true
       related: true
+      header:
+        image: images/landscape-1314405.jpg
+  - scope:
+      path: ""
+      type: pages
+    values:
+      header:
+        image: images/landscape-1314405.jpg
 
 
 theme: minimal-mistakes-jekyll
