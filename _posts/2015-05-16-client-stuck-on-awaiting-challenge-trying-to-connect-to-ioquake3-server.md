@@ -20,7 +20,6 @@ You have several options to work around this issue:
 
   1. Specify the IPv4 address of the server explicitly
   2. Force IPv4 resolution by issuing the console (~) command **_/connect -4 hostName_**
-  3. Disable IPv6 in the client by adding the following lines to your _[autoexec.cfg](http://www.quake3world.com/q3guide/configs.html)_: <pre class="brush: plain; title: ; notranslate" title="">set net_enabled 1
-net_restart</pre>
+  3. Disable IPv6 in the client by adding the following lines to your _[autoexec.cfg](http://www.quake3world.com/q3guide/configs.html)_: `set net_enabled 1 net_restart`
 
 Happy fragging!
