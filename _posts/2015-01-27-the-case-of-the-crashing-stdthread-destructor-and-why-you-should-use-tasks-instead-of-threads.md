@@ -16,11 +16,12 @@ categories:
 ---
 I recently encountered an interesting crash in our iOS application at work. Here’s the relevant stack trace section:
 
-<pre class="brush: plain; title: ; notranslate" title="">…
+```cpp
+…
 libc++abi.dylib std::terminate()
 libc++.1.dylib std::__1::thread::~thread()
 …
-</pre>
+```
 
 Luckily, the documentation for [std::~thread](http://en.cppreference.com/w/cpp/thread/thread/~thread) provides us with the root cause:
   
