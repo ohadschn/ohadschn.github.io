@@ -18,12 +18,13 @@ Another annoyance is in the audio department. Presumably, when you play a game o
 
 Now that we have all the prerequisites, we can create the following batch file to switch primary monitors, switch to HDMI audio output, run the game, and finally when the game is over switch everything back:
 
-<pre class="brush: bash; title: ; notranslate" title="">EndPointController.exe X
+```shell
+EndPointController.exe X
 w7toggledisplay.exe /primary
 Game.exe
 EndPointController.exe Y
 w7toggledisplay.exe /primary
-</pre>
+```
 
 Where _X_ is the ID of your HDMI audio device,_ Y_ is the ID of your regular audio device, and _Game.exe_ is the executable of your game.
 
@@ -31,15 +32,17 @@ Where _X_ is the ID of your HDMI audio device,_ Y_ is the ID of your regular a
 
 Unfortunately, the above won&#8217;t work for Steam games, since they are not launched directly via their executable. Instead, they are launched via a special protocol that looks like _steam://rungameid/219150._ You can replace _Game.exe_ above with _start _steam://rungameid/X __where _X_ is the steam ID of your game (as it appears in the original shortcut). This will launch the game, but the trouble is it won&#8217;t wait for the game to quit, switching the audio and display immediately back (the _/wait_ switch doesn&#8217;t help). I haven&#8217;t found a way around that (if anyone is aware of one I&#8217;d be happy to hear), so for Steam games I use two batch files. One to switch primary display and audio, and run the game:
 
-<pre class="brush: bash; title: ; notranslate" title="">EndPointController.exe IdOfHdmiAudioDevice
+```shell
+EndPointController.exe IdOfHdmiAudioDevice
 w7toggledisplay.exe /primary
 start steam://rungameid/SteamId
-</pre>
+```
 
 And then another script to toggle everything back (I give it a [shortcut](http://www.wikihow.com/Create-Keyboard-Shortcuts-for-Programs-in-Windows-XP) so I don&#8217;t have to find the icon on the TV every time):
 
-<pre class="brush: bash; title: ; notranslate" title="">EndPointController.exe IdOfRegularAudioDevice
+```shell
+EndPointController.exe IdOfRegularAudioDevice
 w7toggledisplay.exe /primary
-</pre>
+```
 
 Happy gaming !
