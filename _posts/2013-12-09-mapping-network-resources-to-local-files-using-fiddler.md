@@ -17,13 +17,13 @@ Now, say I want to make some changes to this file and test them out, but I want 
 Whatever the reason may be, <a href="http://fiddler2.com/" target="_blank">Fiddler </a>makes the process very simple.
 
   1. In the right pane, click the **AutoResponder** tab and check **_Enable automatic responses_** and **_Unmatched requests pass through_**
-  2. Find the network resource you wish to replace in the **Web Sessions** list (in our case, _http://www.microsoft.com/global/en-us/home/renderingAssets/wt_capi.js) _and drag it to the **AutoResponder** rule
-  3. Make sure the newly created rule is selected and in the **Rule Editor** at the bottom write the path of the local file you want to respond with,_ _for example _C:wt_capi.js (you can also click the drop-down arrow and select _Find a file&#8230;)__
+  2. Find the network resource you wish to replace in the **Web Sessions** list (in our case, http://www.microsoft.com/global/en-us/home/renderingAssets/wt_capi.js)  and drag it to the **AutoResponder** rule
+  3. Make sure the newly created rule is selected and in the **Rule Editor** at the bottom write the path of the local file you want to respond with, for example `C:\wt_capi.js` (you can also click the drop-down arrow and select _Find a file_)
   4. Click **Save** in the bottom right corner.<figure id="attachment_134" style="width: 450px" class="wp-caption alignnone">
 
-<a href="http://ohadsoft8.azurewebsites.net/wp-content/uploads/2013/12/fiddler.png" rel="lightbox[130]"><img class="size-full wp-image-134" alt="Fiddler AutoResponder" src="http://ohadsoft8.azurewebsites.net/wp-content/uploads/2013/12/fiddler.png" width="450" height="239" srcset="https://www.ohadsoft.com/wp-content/uploads/2013/12/fiddler.png 1646w, https://www.ohadsoft.com/wp-content/uploads/2013/12/fiddler-300x159.png 300w, https://www.ohadsoft.com/wp-content/uploads/2013/12/fiddler-1024x544.png 1024w, https://www.ohadsoft.com/wp-content/uploads/2013/12/fiddler-1200x638.png 1200w" sizes="(max-width: 450px) 85vw, 450px" /></a><figcaption class="wp-caption-text">Fiddler AutoResponder</figcaption></figure> 
+<a href="http://ohadsoft8.azurewebsites.net/wp-content/uploads/2013/12/fiddler.png" rel="lightbox[130]"><img class="size-full wp-image-134" alt="Fiddler AutoResponder" src="http://ohadsoft8.azurewebsites.net/wp-content/uploads/2013/12/fiddler.png" width="450" height="239" srcset="https://www.ohadsoft.com/wp-content/uploads/2013/12/fiddler.png 1646w, https://www.ohadsoft.com/wp-content/uploads/2013/12/fiddler-300x159.png 300w, https://www.ohadsoft.com/wp-content/uploads/2013/12/fiddler-1024x544.png 1024w, https://www.ohadsoft.com/wp-content/uploads/2013/12/fiddler-1200x638.png 1200w" sizes="(max-width: 450px) 85vw, 450px" /></a>
 
-All done. Whenever the browser asks for _http://www.microsoft.com/global/en-us/home/renderingAssets/wt_capi.js_, Fiddler will intercept that request and respond with _C:wt_capi.js_ (Fiddler will indicate this by highlighting the corresponding session in the Web Sessions list).
+All done. Whenever the browser asks for http://www.microsoft.com/global/en-us/home/renderingAssets/wt_capi.js, Fiddler will intercept that request and respond with `C:\wt_capi.js` (Fiddler will indicate this by highlighting the corresponding session in the Web Sessions list).
 
 **HTTPS**
 
