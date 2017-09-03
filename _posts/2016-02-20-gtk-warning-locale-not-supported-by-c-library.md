@@ -14,9 +14,9 @@ I was recently writing a mono application for OSX in MonoDevelop, using [Gtk#](
 
 Since I don&#8217;t like errors, even if I don&#8217;t understand their immediate effect, I did a bit of searching. My search led me to this [StackOverflow post](http://stackoverflow.com/questions/7165108/in-osx-lion-lang-is-not-set-to-utf8-how-fix), whose answers suggested defining the following environment variables in the terminal:
 
-<pre class="brush: plain; title: ; notranslate" title="">export LC_ALL=en_US.UTF-8
+```bash
+export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
-</pre>
+```
 
 Indeed, setting those variables in a bash script, prior to the execution of my application, resolved the issue 🙂
