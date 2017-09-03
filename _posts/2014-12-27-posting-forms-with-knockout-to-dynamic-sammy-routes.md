@@ -19,19 +19,21 @@ There are many libraries that handle both needs, and I went with Knockout for (1
 
 The way Sammy works is by defining &#8220;routes&#8221; (typically hash tag routes for SPAs), which are basically URLs that trigger JS methods. For example, you might define the following route:
 
-<pre class="brush: jscript; title: ; notranslate" title="">get('#/:name', function() {
+```js
+get('#/:name', function() {
     alert(this.params['name']);
 });
-</pre>
+```
 
 When the URL changes to _mysite.com/#/Ohad_, an alert will pop up saying _&#8220;Ohad&#8221;_. Now, suppose we have a form we want to &#8220;submit&#8221; to the route above Sammy route:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;form
-data-bind="submit:function(){window.location='#/'+name();}"&gt;
- &lt;input type="text" data-bind="value: name"&gt;&lt;/input&gt;
- &lt;button type="submit"&gt;Submit&lt;/button&gt;
-&lt;/form&gt;
-</pre>
+```xml
+<form
+data-bind="submit:function(){window.location='#/'+name();}">
+ <input type="text" data-bind="value: name"></input>
+ <button type="submit">Submit</button>
+</form>
+```
 
 The input&#8217;s _data-bind _attribute binds the input&#8217;s value to our view model&#8217;s _name_ observable. The form&#8217;s _data-bind_ attribute binds the form submission event to a URL redirection for the desired Sammy route. For more information about Knockout bindings, visit <http://learn.knockoutjs.com>.
 
@@ -39,12 +41,13 @@ The code above works, but not exactly as expected. See, when no _action_ attrib
 
 This messed up my hash tag navigation model, and nothing I tried prevented the browser from reverting the address (canceling the form submission event, returning false from the handler method, etc). And then it hit me &#8211; why fight the browser?
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;form
-data-bind="attr: { action: '#/'+name() }"&gt;
- &lt;input type="text" data-bind="value: name"&gt;&lt;/input&gt;
- &lt;button type="submit"&gt;Submit&lt;/button&gt;
-&lt;/form&gt;
-</pre>
+```xml
+<form
+data-bind="attr: { action: '#/'+name() }">
+ <input type="text" data-bind="value: name"></input>
+ <button type="submit">Submit</button>
+</form>
+```
 
 See what we did there? Instead of using knockout to circumvent the normal form submission flow, I go with it. Whereas Knockout&#8217;s _submit_ binding tries to cancel the browser&#8217;s submission event and replace it with the supplied method, here the submission flow is completely standard. We just need to make sure the _action_ attribute points to the right place, and voila &#8211; hash tag history is preserved.
 
