@@ -53,12 +53,13 @@ Finally, the [beta pre-relase](https://www.nuget.org/packages/Microsoft.Diagnost
 
 In other words, we should be able to use annotated custom types (in a similar fashion to WCF DataContract-annotated objects). But even better than that, we should be able to say:
 
-<pre class="brush: csharp; title: ; notranslate" title="">[Event(1)]
+```cs
+[Event(1)]
 public void Bar(int i, string s, DateTime d)
 {
     Write(null, new {I = i, S = s, D = d});
 }
-</pre>
+```
 
 Notice I said _should,_ because I could make neither work (beta after all). But why do we even need this when we already have the _WriteEvent(int eventId, params Object[])_ overload? Well, let&#8217;s look at the [documentation](http://msdn.microsoft.com/en-us/library/hh393360(v=vs.110).aspx) of the latter:
 
