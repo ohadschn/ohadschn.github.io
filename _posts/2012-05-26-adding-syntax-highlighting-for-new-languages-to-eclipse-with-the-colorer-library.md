@@ -13,37 +13,41 @@ Say you have an [HRC](http://colorer.sourceforge.net/hrc-ref/index.html) file co
 Using the [EclipseColorer](http://colorer.sourceforge.net/eclipsecolorer/) plugin, you can easily add support for it. For this tutorial I&#8217;ll be using _Eclipse Classic 3.7.2 32-bit_.
 
   1. Go to _Help -> Install New Software_ and click _Add.._
-  2. __ In the _Name_ field write **Colorer** and in the _Location_ field write **http://colorer.sf.net/eclipsecolorer/**_
+  2. In the _Name_ field write **Colorer** and in the _Location_ field write **http://colorer.sf.net/eclipsecolorer/**
   
 _ 
-  3. Select the entry you&#8217;ve just added in the _work with:_ __combo box, wait for the component list to populate and click _Select All_
-  4. Click _Next_ __and follow the instructions
+  3. Select the entry you&#8217;ve just added in the _work with:_ combo box, wait for the component list to populate and click _Select All_
+  4. Click _Next_ and follow the instructions
   5. Once the plugin is installed, close Eclipse
-  6. Copy your HRC file to _[EclipseFolder]pluginsnet.sf.colorer_0.9.9colorerhrcautotypes_
-  7. Use your favorite text editor to open _[EclipseFolder]pluginsnet.sf.colorer_0.9.9colorerhrcautoempty.hrc_
-  8. Add the appropriate **prototype** element. For example, if your HRC file is _d.hrc_, _empty.hrc_  will look like this:  <pre class="brush: xml; title: ; notranslate" title="">&lt;?xml version="1.0" encoding='Windows-1251'?&gt;
- &lt;!DOCTYPE hrc PUBLIC
- "-//Cail Lomecb//DTD Colorer HRC take5//EN"
- "http://colorer.sf.net/2003/hrc.dtd"
- &gt;
- &lt;hrc version="take5" xmlns="http://colorer.sf.net/2003/hrc"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://colorer.sf.net/2003/hrc http://colorer.sf.net/2003/hrc.xsd"
- &gt;&lt;annotation&gt;&lt;documentation&gt;
- 'auto' is a place for include
- to colorer your own HRCs
-&lt;/documentation&gt;&lt;/annotation&gt;
-&lt;prototype name="d" group="main" description="D"&gt;
- &lt;location link="types/d.hrc"/&gt;
- &lt;filename&gt;/.(d)$/i&lt;/filename&gt;
- &lt;/prototype&gt;
-&lt;/hrc&gt; </pre>
-
-  9. Save the changes and close the text editor
- 10. Open Eclipse and go to _Window -> Preferences -> General -> Editors -> File Associations_
- 11. In the _file types_ section, click _Add.._ __and fill in the appropriate filetype (for example _.d_)
- 12. Click OK and click your newly added entry in the list
- 13. In the ___associated editors_ section_, click Add.._, select _Colorer Editor_ and press OK
+  6. Copy your HRC file to `[EclipseFolder]\plugins\net.sf.colorer\0.9.9\colorer\hrc\auto\types`
+  7. Use your favorite text editor to open `[EclipseFolder]\plugins\net.sf.colorer\0.9.9\colorer\hrc\auto\empty.hrc`
+  8. Add the appropriate **prototype** element. For example, if your HRC file is _d.hrc_, _empty.hrc_  will look like this:  
+  
+   ```xml 
+   <?xml version="1.0" encoding='Windows-1251'?>
+    <!DOCTYPE hrc PUBLIC
+    "-//Cail Lomecb//DTD Colorer HRC take5//EN"
+    "http://colorer.sf.net/2003/hrc.dtd"
+    >
+    <hrc version="take5" xmlns="http://colorer.sf.net/2003/hrc"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://colorer.sf.net/2003/hrc http://colorer.sf.net/2003/hrc.xsd"
+    ><annotation><documentation>
+    'auto' is a place for include
+    to colorer your own HRCs
+   </documentation></annotation>
+   <prototype name="d" group="main" description="D">
+    <location link="types/d.hrc"/>
+    <filename>/.(d)$/i</filename>
+    </prototype>
+   </hrc> 
+   ```
+ 
+ 1. Save the changes and close the text editor
+ 1. Open Eclipse and go to _Window -> Preferences -> General -> Editors -> File Associations_
+ 1. In the _file types_ section, click _Add.._ and fill in the appropriate filetype (for example _.d_)
+ 1. Click OK and click your newly added entry in the list
+ 1. In the _associated editors_ section, click _Add.._, select _Colorer Editor_ and press OK
 
 All done! Now you can open your new language files in Eclipse and enjoy syntax highlighting and parsing.
 
