@@ -22,7 +22,9 @@ So I went to the Windows Store on my PC and installed the Roku Windows Store app
 
 At this point I became very curious. Why were the WP apps failing? It can&#8217;t be a coincidence, especially considering the fact that many reviewers confirmed those apps did in fact deliver on their promise and controlled the device. To satisfy my curiosity, I referred to Roku&#8217;s [REST API documentation](http://sdkdocs.roku.com/display/sdkdoc/External+Control+Guide). It literally could not be any simpler. Want to press the _Home_ key? This is all you need to do:
 
-<pre class="brush: plain; title: ; notranslate" title="">curl -d '' http://192.168.1.134:8060/keypress/home</pre>
+```bash
+curl -d '' http://192.168.1.134:8060/keypress/home
+```
 
 There&#8217;s no way all the Roku apps in the WP store got something as simple as this wrong. But seeing how simple the API was, I realized it would be a matter of hours to create a simple WP app that sends these commands and be done with it. I even had a name for my app &#8211; _RemoRoku_. It would be the savior of all Windows Phone Roku users, and I would be forever renowned as the hero of the community.
 
