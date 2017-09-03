@@ -19,10 +19,11 @@ C++11 introduced a couple of new string classes on top of [std::string](http://w
 
 Well, you&#8217;d might want to rethink that. To see why, let&#8217;s take a look at some definitions:
 
-<pre class="brush: cpp; title: ; notranslate" title="">typedef basic_string&lt;char&gt; string;
-typedef basic_string&lt;char16_t&gt; u16string;
-typedef basic_string&lt;char32_t&gt; u32string;
-</pre>
+```cpp
+typedef basic_string<char> string;
+typedef basic_string<char16_t> u16string;
+typedef basic_string<char32_t> u32string;
+```
 
 As you can see, they all use the same exact template class. In other words, **there is nothing Unicode-aware, or anything special at all for that matter, with the new classes**. You don&#8217;t get &#8220;Unicode for free&#8221; or anything like that. We do see however an important difference between them &#8211; each class uses a different type as an underlying &#8220;character&#8221;.
 
