@@ -21,8 +21,8 @@ Having played around with most (all?) of the options, I finally settled down on 
   * Emit the command&#8217;s output to the pipe for further processing.
   * Set the execution status ($?) to `$False` in case of failre on all retries.
 
-<pre class="brush: powershell; title: ; notranslate" title="">&lt;#
-
+```powershell
+<#
 .SYNOPSIS
 Calls a shell (cmd) command with retries
 
@@ -58,7 +58,7 @@ The output of the last command execution.
 Use cURL for Windows to download the latest NuGet command-line client
 C:\PS&gt; Call-CommandWithRetries "curl.exe" @("--fail", "-O", "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe")
 
-#&gt;
+#>
 function Call-CommandWithRetries
 {
  [CmdletBinding()]
@@ -102,7 +102,8 @@ function Call-CommandWithRetries
    Start-Sleep -s $RetrySleepSeconds
   }
  }
-}</pre>
+}
+```
 
 References:
 
