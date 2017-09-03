@@ -17,8 +17,8 @@ Yesterday <a href="https://www.ohadsoft.com/2016/04/invoking-arbitrary-shell-cmd
 
 Here&#8217;s how it looks:
 
-<pre class="brush: powershell; title: ; notranslate" title="">&lt;#
-
+```powershell
+<#
 .SYNOPSIS
 Invokes a command with retries.
 
@@ -49,7 +49,7 @@ The output of the last command execution.
 .EXAMPLE
 $output = Call-PSCommandWithRetries "dir" @{"Path"='C:\'}
 
-#&gt;
+#>
 function Call-PSCommandWithRetries
 {
  [CmdletBinding()]
@@ -103,7 +103,7 @@ function Call-PSCommandWithRetries
   }
  }
 }
-</pre>
+```
 
 References:
 
