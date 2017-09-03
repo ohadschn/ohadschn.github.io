@@ -12,4 +12,4 @@ I ran into an annoying phenomena today when I tried indenting some multi-line ex
 
 It turns out that <a href="https://blog.jetbrains.com/dotnet/2016/08/18/resharper-ultimate-2016-2-is-here/" target="_blank">Resharper Ultimate 2016.2 introduced a new <em>Structural navigation</em> feature</a> (enabled by default) that makes tab move text selections instead of indenting when pressed mid-line. I also found out that <a href="https://resharper-support.jetbrains.com/hc/en-us/community/posts/207739969-Tab-key-behaviour-overridden" target="_blank">I wasn&#8217;t the first on who complained about it</a>.
 
-Anyway, to disable it simply turn off Structural Navigation in Resharper&#8217;s Options (Editor -> Editor Behavior).
+Anyway, to disable it simply turn off Structural Navigation in Resharper&#8217;s Options (_Editor_ -> _Editor Behavior_).
