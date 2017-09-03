@@ -20,35 +20,36 @@ To recap &#8211; once you&#8217;ve decided whether you like _www_ or not, and fi
 
 In addition, you want HTS headers (_Strict\_Transport\_Security_) in place. Fortunately, using the <a href="http://www.iis.net/learn/extensions/url-rewrite-module/url-rewrite-module-20-configuration-reference" target="_blank">IIS Rewrite module</a> (installed by default on Azure deployments), accomplishing all of the above is a breeze:
 
-<pre class="brush: xml; title: ; notranslate" title="">&lt;configuration&gt;
-&lt;system.webServer&gt;
- &lt;rewrite&gt;
-  &lt;rules&gt;
-   &lt;rule name="Redirect to www" stopProcessing="true"&gt;
-    &lt;match url="(.*)" /&gt;
-    &lt;conditions logicalGrouping="MatchAny"&gt;
-     &lt;add input="{HTTP_HOST}" pattern="^yourdomain\.com"/&gt;
-     &lt;add input="{HTTPS}" pattern="off" ignoreCase="true"/&gt;
-    &lt;/conditions&gt;
-    &lt;action type="Redirect" 
+```xml
+<pre class="brush: xml; title: ; notranslate" title=""><configuration>
+<system.webServer>
+ <rewrite>
+  <rules>
+   <rule name="Redirect to www" stopProcessing="true">
+    <match url="(.*)" />
+    <conditions logicalGrouping="MatchAny">
+     <add input="{HTTP_HOST}" pattern="^yourdomain\.com"/>
+     <add input="{HTTPS}" pattern="off" ignoreCase="true"/>
+    </conditions>
+    <action type="Redirect" 
             url="https://www.yourdomain.com/{R:1}" 
-            redirectType="Permanent"/&gt;
-   &lt;/rule&gt;
-  &lt;/rules&gt;
-  &lt;outboundRules&gt;
-   &lt;rule name="HSTS" enabled="true"&gt;
-    &lt;match 
+            redirectType="Permanent"/>
+   </rule>
+  </rules>
+  <outboundRules>
+   <rule name="HSTS" enabled="true">
+    <match 
        serverVariable="RESPONSE_Strict_Transport_Security" 
-       pattern=".*" /&gt;
-    &lt;conditions&gt;
-     &lt;add input="{HTTPS}" pattern="on" ignoreCase="true" /&gt;
-    &lt;/conditions&gt;
-    &lt;action type="Rewrite" value="max-age=31536000" /&gt;
-   &lt;/rule&gt;
-  &lt;/outboundRules&gt;
- &lt;/rewrite&gt;
-&lt;/system.webServer&gt;
-&lt;/configuration&gt;
+       pattern=".*" />
+    <conditions>
+     <add input="{HTTPS}" pattern="on" ignoreCase="true" />
+    </conditions>
+    <action type="Rewrite" value="max-age=31536000" />
+   </rule>
+  </outboundRules>
+ </rewrite>
+</system.webServer>
+</configuration>
 </pre>
-
+```
 Happy rewriting 😉
