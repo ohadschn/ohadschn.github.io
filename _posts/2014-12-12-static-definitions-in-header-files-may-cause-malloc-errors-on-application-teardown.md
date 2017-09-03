@@ -16,45 +16,35 @@ I recently encountered the following error in the shutdown procedure of XCTest 
 
 Here&#8217;s how the stack looked like (truncated to section of interest):
 
-> **(lldb) bt**
+```cpp
+(lldb) bt
   
-> …
-> 
-> frame #4: 0x00e12ae7 OurProduct\`std::\_\_1::basic\_string<char16\_t, std::\_\_1::char\_traits<char16\_t>, std::_\_1::allocator<char16\_t> >::~basic_string(this=0x042a2058) + 103 at string:2093
-> 
-> frame #5: 0x00e10cb7 OurProductI\`std::\_\_1::basic\_string<char16\_t, std::\_\_1::char\_traits<char16\_t>, std::_\_1::allocator<char16\_t> >::~basic_string(this=0x042a2058) + 23 at string:2090
-> 
-> frame #6: 0x0c94a7ac libsystem\_sim\_c.dylib\`_\_cxa\_finalize_ranges + 315
-> 
-> frame #7: 0x0c94a832 libsystem\_sim\_c.dylib\`_\_cxa\_finalize + 59
-> 
-> frame #8: 0x0c94ab55 libsystem\_sim\_c.dylib\`exit + 57
-> 
-> frame #9: 0x20117684 XCTest\`+[XCTestProbe exitTests:] + 57
-  
-> …
+…
+frame #4: 0x00e12ae7 OurProduct`std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >::~basic_string(this=0x042a2058) + 103 at string:2093
+frame #5: 0x00e10cb7 OurProductI`std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >::~basic_string(this=0x042a2058) + 23 at string:2090
+frame #6: 0x0c94a7ac libsystem_sim_c.dylib`__cxa_finalize_ranges + 315
+frame #7: 0x0c94a832 libsystem_sim_c.dylib`__cxa_finalize + 59
+frame #8: 0x0c94ab55 libsystem_sim_c.dylib`exit + 57
+frame #9: 0x20117684 XCTest`+[XCTestProbe exitTests:] + 57
+…
+```
 
 As you can see, XCTest was executing its shutdown procedure, and during this finalization phase the destructors of static instances were executed. It was somewhat vexing that a static destructor would try to free up a pointer that was never allocated &#8211; after all, statics are allocated only once when the process starts up. And if some static was not defined (or defined multiple times), a linker error should have been thrown. How could this situation come to be?
 
 Failing to answer that question armed with the data above alone, I proceeded to attempt and locate the faulty string in our code. I had hoped I could spot something unusual about it, that would hopefully hint me at the root cause of the failure.
 
-> **(lldb) frame select 4**
-  
-> **(lldb) frame variable *this**
-> 
-> (std::\_\_1::basic\_string<char16\_t, std::\_\_1::char\_traits<char16\_t>, std::_\_1::allocator<char16\_t> >) *this = {
-> 
-> _\_r\_ = {
-> 
-> std::\_\_1::\_\_libcpp\_compressed\_pair\_imp<std::\\_\_1::basic\_string<char16\_t, std::\_\_1::char\_traits<char16\_t>, std::\_\_1::allocator<char16\_t> >::\\_\_rep, std::_\_1::allocator<char16\_t> > = {
-> 
-> _\_first\_ = {
-> 
-> = {
-> 
-> \_\_l = (\_\_cap_ = 17, \_\_size_ = 14, \_\_data_ = u&#8221;**Helvetica Neue**&#8220;)
-  
-> __s = {
+```cpp
+(lldb) frame select 4
+
+(lldb) frame variable this
+(std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >) *this = {
+__r_ = {
+std::__1::__libcpp_compressed_pair_imp<std::\__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >::\__rep, std::__1::allocator<char16_t> > = {
+__first_ = {
+= {
+__l = (__cap_ = 17, __size_ = 14, __data_ = u&#8221;**Helvetica Neue**&#8220;)
+...
+```
 
 The string looked innocent enough. However, upon finding it in our code (thankfully the literal appeared as is, and only once), I noticed it was **defined** (initialized) in the header. Statics should be **declared** in the header &#8211; never defined. Code such as  _Bar::foo = &#8220;Helvetica Neue&#8221;_ belongs in the _cpp_ file. For more information see <http://stackoverflow.com/questions/185844/initializing-private-static-members>.
 
