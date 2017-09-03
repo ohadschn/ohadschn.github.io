@@ -18,7 +18,8 @@ categories:
 ---
 Consider the following (contrived) code:
 
-<pre class="brush: cpp; title: ; notranslate" title="">using namespace std;
+```cpp
+using namespace std;
 
 void work()
 {
@@ -41,8 +42,7 @@ int main()
 
     return 0;
 }
-
-</pre>
+```
 
 The intent of the code is quite clear &#8211; we spawn a worker thread and have two threads wait for it to finish. Let&#8217;s assume that the sleep is long enough so that both threads try and join while the worker is still running (otherwise the thread stops being joinable and calling _join_ throws). Even under that assumption, the code&#8217;s behavior is not defined (UB). The reason is in the [docs](http://www.cplusplus.com/reference/thread/thread/join/):
 
@@ -50,7 +50,8 @@ The intent of the code is quite clear &#8211; we spawn a worker thread and have 
 
 In other words, **the std::thread object itself is not thread safe**, so we can&#8217;t call its methods concurrently (which is what we&#8217;re doing in _waiter1_ and _waiter2_). We&#8217;ll have to do something like this:
 
-<pre class="brush: cpp; title: ; notranslate" title="">using namespace std;
+```cpp
+using namespace std;
 
 mutex m;
 
@@ -79,11 +80,12 @@ int _tmain()
 
     return 0;
 }
-</pre>
+```
 
 Of course, were you using _tasks_, you wouldn&#8217;t have needed to concern yourself with such trivialities:
 
-<pre class="brush: cpp; title: ; notranslate" title="">using namespace std;
+```
+using namespace std;
 using namespace concurrency;
 
 auto worker = create_task([]
@@ -103,7 +105,7 @@ auto waiter2 = create_task([&worker]
 
 waiter1.wait(); //works
 waiter2.wait(); //great
-</pre>
+```
 
 I hope this has taken you one step closer to ditching bare threads (if you haven&#8217;t already). If it didn&#8217;t, be sure to check out [(Not) using std::thread](https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/) by Andrzej Krzemieński (his blog is great all around, so I recommend you check it out anyway).
 
