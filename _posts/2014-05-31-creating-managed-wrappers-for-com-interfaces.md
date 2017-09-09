@@ -8,7 +8,7 @@ permalink: /2014/05/creating-managed-wrappers-for-com-interfaces/
 geo_public:
   - "0"
 categories:
-  - Uncategorized
+  - Software-Development
 tags:
   - .NET
   - COM

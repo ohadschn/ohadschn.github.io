@@ -6,7 +6,10 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=70
 permalink: /2012/09/winrabcdasm-flash-abc-actionscript-bytecode-disassembly-and-reassembly-made-easy/
 categories:
-  - Uncategorized
+  - Reverse-Engineering
+tags:
+  - Flash
+  - RABCDAsm
 ---
 [RABCDAsm](https://github.com/CyberShadow/RABCDAsm) is an excellent collection of utilities for assembling and disassembling actionscript 3 flash (SWF) files. Since using it requires a bit of work in the command line, and I&#8217;m very lazy, I&#8217;ve created a GUI front-end for it: [WinRABCDasm](https://sourceforge.net/projects/winrabcdasm/). Once you enter your RABCDasm path in the settings window, the workflow is very easy:
 

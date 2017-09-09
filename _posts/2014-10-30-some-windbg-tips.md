@@ -8,7 +8,11 @@ permalink: /2014/10/some-windbg-tips/
 sharing_disabled:
   - "1"
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - Debugging
+  - Production-Debugging
+  - WinDbg
 ---
 I&#8217;ve gathered some WinDbg tips over time (mostly for managed dump analysis) and this seems like as good a place as any to share them, so here you go.
 

@@ -6,7 +6,10 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=694
 permalink: /2016/04/invoking-arbitrary-powershell-commands-with-retries-in-powershell/
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - PowerShell
+  - Retries
 ---
 Yesterday <a href="https://www.ohadsoft.com/2016/04/invoking-arbitrary-shell-cmd-commands-in-powershell/" target="_blank">I blogged</a> about a function I created to execute arbitrary shell (cmd) commands in PowerShell, with retries in face of failures. But what if the command I want to execute is actually another PowerShell script (or function, or cmdlet)? The rules change a bit:
 

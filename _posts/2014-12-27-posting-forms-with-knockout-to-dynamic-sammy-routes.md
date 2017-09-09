@@ -8,7 +8,12 @@ permalink: /2014/12/posting-forms-with-knockout-to-dynamic-sammy-routes/
 sharing_disabled:
   - "1"
 categories:
-  - Uncategorized
+  - Software-Development
+  - Web
+tags:
+  - Knockout.js
+  - SPA
+  - Sammy
 ---
 Single-page applications (SPAs) are the standard these days, and two aspects are typically considered for their development:
 

@@ -14,7 +14,13 @@ publicize_linkedin_url:
   - ""
   - ""
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - C++
+  - Standard-Library
+  - Concurrency
+  - Tasks
+  - PPLX
 ---
 Consider the following (contrived) code:
 
@@ -28,7 +34,7 @@ void work()
 
 void wait(thread* t)
 {
-    t-&gt;join();
+    t->join();
 }
 
 int main()
@@ -62,10 +68,10 @@ void work()
 
 void wait(thread* t)
 {
-    lock_guard&lt;std::mutex&gt; lock(m);
-    if (t-&gt;joinable())
+    lock_guard&lt;std::mutex> lock(m);
+    if (t->joinable())
     {
-        t-&gt;join();
+        t->join();
     }
 }
 

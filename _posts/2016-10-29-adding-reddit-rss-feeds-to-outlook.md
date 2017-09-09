@@ -6,7 +6,11 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=750
 permalink: /2016/10/adding-reddit-rss-feeds-to-outlook/
 categories:
-  - Uncategorized
+  - Tips
+tags:
+  - Outlook
+  - RSS
+  - Reddit
 ---
 <a href="https://www.reddit.com/wiki/rss" target="_blank">Creating reddit RSS feeds</a> is pretty straightforward. For example, subscribing to `http://www.reddit.com/r/news/.rss` will get you all threads in the _news_ subreddit. However, attempting to add such a URL to Outlook&#8217;s RSS reader will result in the following error:
 

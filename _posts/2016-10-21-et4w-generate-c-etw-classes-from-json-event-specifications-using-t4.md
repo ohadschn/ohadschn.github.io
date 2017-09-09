@@ -6,7 +6,12 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=734
 permalink: /2016/10/et4w-generate-c-etw-classes-from-json-event-specifications-using-t4/
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - ETW
+  - ET4W
+  - T4
+  - Code-Generation
 ---
 <a href="https://github.com/ohadschn/ET4W" target="_blank"><img src="https://raw.githubusercontent.com/ohadschn/ET4W/master/docs/Transformation.png" width="777" height="406" alt="ET4W" class="aligncenter size-medium" /></a>
 

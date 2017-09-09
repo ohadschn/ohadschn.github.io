@@ -6,7 +6,11 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=101
 permalink: /2013/06/mce-launcher-configure-which-programs-are-launched-when-mce-buttons-are-pressed/
 categories:
-  - Uncategorized
+  - Utilities
+  - Multimedia
+tags:
+  - XBMC
+  - MCE
 ---
 I&#8217;ve been using XBMC for some time as my HTPC driver. Having an MCE remote though, its buttons are configured to run Windows Media Center. I ran into the following [blog post](http://inchoatethoughts.com/launching-xbmc-with-a-windows-media-center-remote) that offers a way to change this, but I didn&#8217;t like the implementation:
 

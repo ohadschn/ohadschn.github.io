@@ -6,7 +6,12 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=155
 permalink: /2014/01/introducing-tvgamelauncher/
 categories:
-  - Uncategorized
+  - Utilities
+  - Gaming
+tags:
+  - Steam
+  - HDMI
+  - HTPC
 ---
 **EDIT** &#8211; check out [TvGameLAuncherGUI](http://www.ohadsoft.com/2014/07/tvgamelaunchergui/)!
 

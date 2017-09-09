@@ -6,7 +6,11 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=167
 permalink: /2014/01/measurin-on-screen-pixels/
 categories:
-  - Uncategorized
+  - Software-Development
+  - Web
+tags:
+  - Redline
+  - Cropper
 ---
 There are times when measuring pixels on-screen may be useful. This is especially true when following [redline](http://visitmix.com/writings/a-beginning-glossary-for-the-web-designer-or-developer#redlines) specifications (just make sure your browser zoom is set to 100%). There exist many **free** tools to aid in this task, and this [SuperUser thread](http://superuser.com/questions/360035/is-there-a-tool-to-measure-pixels-on-a-screen) lists many of them. Luckily for you, I&#8217;ve tested most of the utilities proposed in the thread and the winner is&#8230; [Cropper](https://cropper.codeplex.com/) !
 

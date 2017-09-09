@@ -6,7 +6,14 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=606
 permalink: /2016/02/gtk-warning-locale-not-supported-by-c-library/
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - Mac
+  - MonoDevelop
+  - Mono
+  - GTK
+  - Bash
+  - Locale
 ---
 I was recently writing a mono application for OSX in MonoDevelop, using [Gtk#](http://www.mono-project.com/docs/gui/gtksharp/) as the GUI framework. The app seemed to work fine, but it would throw the following error each time it started:
 

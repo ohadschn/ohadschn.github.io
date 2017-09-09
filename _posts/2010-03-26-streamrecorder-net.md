@@ -7,7 +7,11 @@ excerpt: Record streaming media with StreamRecorder.NET
 guid: http://ohadsc.wordpress.com/?p=12
 permalink: /2010/03/streamrecorder-net/
 categories:
-  - Uncategorized
+  - Utilities
+  - Multimedia
+tags:
+  - MPlayer
+  - VLC
 ---
 As far as I know, the most robust, free solutions for recording streams of all types today are MPlayer and VLC. Both require some command line arguments which, for many users, would be difficult to use (and find!). In addition, they do not cater to many streaming needs. For that reason, I created StreamRecorder.NET &#8211; a free, open source windows GUI front end for several programs (most notably MPayer and VLC), that provides the following features:
 

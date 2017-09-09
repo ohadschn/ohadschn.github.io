@@ -10,7 +10,12 @@ sharing_disabled:
 geo_public:
   - "0"
 categories:
-  - Uncategorized
+  - Utilities
+  - Gaming
+tags:
+  - Steam
+  - HTPC
+  - HDMI
 ---
 A couple of months ago I blogged about [TvGameLauncher](http://ohadsc.wordpress.com/2014/01/12/introducing-tvgamelauncher/), a command line tool to help you launch your favorite games on your HDMI-connected TV (or any other connected display) with all the necessary steps carried out for you (change primary display, change default audio endpoint, prevent sleep).
 

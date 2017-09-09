@@ -6,7 +6,11 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=222
 permalink: /2014/05/work-guy-always-screws-home-guy/
 categories:
-  - Uncategorized
+  - Software-Development
+  - Tips
+tags:
+  - Seinfeld
+  - Work-Life-Balance
 ---
 A [great man once said](http://www.youtube.com/watch?v=W-Cz-LK16g4):
 

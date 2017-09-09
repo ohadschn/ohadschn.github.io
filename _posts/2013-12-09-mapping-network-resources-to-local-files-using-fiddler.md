@@ -6,7 +6,10 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=130
 permalink: /2013/12/mapping-network-resources-to-local-files-using-fiddler/
 categories:
-  - Uncategorized
+  - Software-Development
+  - Web
+tags:
+  - Fiddler
 ---
 In web development, it is sometimes useful to alter files locally on the client (browser) side and test their behavior.
 

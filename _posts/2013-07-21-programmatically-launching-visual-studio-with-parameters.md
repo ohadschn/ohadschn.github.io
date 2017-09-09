@@ -8,7 +8,9 @@ permalink: /2013/07/programmatically-launching-visual-studio-with-parameters/
 geo_public:
   - "0"
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - Visual-Studio
 ---
 In the group where I work, we don&#8217;t open Visual Studio (VS) solutions by double-clicking on them in Windows explorer, rather we have a special command-line launcher that takes care of that. The reasons why are unimportant, what I want to focus on in this post is the programmatic launching of Visual Studio when you want to pass it [parameters beyond the file name](http://msdn.microsoft.com/en-us/library/xee0c8y7%28v=vs.100%29.aspx).
 

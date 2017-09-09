@@ -6,7 +6,12 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=670
 permalink: /2016/04/invoking-arbitrary-shell-cmd-commands-in-powershell/
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - PowerShell
+  - Retries
+  - Shell
+  - CMD
 ---
 _**EDIT**&#8211; I initially tried to support execution of PowerShell scripts, functions, and cmdlets in the code below. However, it turns out that they behave too differently so I wrote a separate post on it: <https://www.ohadsoft.com/2016/04/invoking-arbitrary-powershell-commands-with-retries-in-powershell/>._
 

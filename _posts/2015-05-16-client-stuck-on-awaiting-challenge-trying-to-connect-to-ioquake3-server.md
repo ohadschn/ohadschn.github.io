@@ -6,7 +6,12 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=532
 permalink: /2015/05/client-stuck-on-awaiting-challenge-trying-to-connect-to-ioquake3-server/
 categories:
-  - Uncategorized
+  - Gaming
+tags:
+  - Quake3
+  - ioquake3
+  - IPv4
+  - IPv6
 ---
 Every week, I meet up with a group of friends from work for a LAN party. Since the age-old Quake vs Unreal debate could not be settled (obviously Quake is better and they are wrong), we decided to alternate between Quake3 and Unreal 2004.
 

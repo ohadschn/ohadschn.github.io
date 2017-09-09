@@ -8,7 +8,12 @@ permalink: /2014/08/getting-spinner-gifs-from-a-cdn/
 sharing_disabled:
   - "1"
 categories:
-  - Uncategorized
+  - Software-Development
+  - Web
+tags:
+  - CDN
+  - Spinner
+  - Gif
 ---
 Using animated gifs for spinner / loader animation can be quite convenient, and sites such as [AjaxLoad](http://ajaxload.info/) allow you to create them to your liking. However, being the early optimization evil person that I am, I was wondering if I could get those off a [CDN](http://en.wikipedia.org/wiki/Content_delivery_network). There doesn&#8217;t seem to be any official support for this, and you won&#8217;t get custom taliored gifs to your exact liking, but a [sneaky web](https://www.google.com/search?q=site:cdnjs.com+gif) search reveals quite a few possibilities. For example:
 

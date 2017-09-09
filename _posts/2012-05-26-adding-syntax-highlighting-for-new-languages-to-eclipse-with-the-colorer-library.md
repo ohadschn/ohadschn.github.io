@@ -6,7 +6,11 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=42
 permalink: /2012/05/adding-syntax-highlighting-for-new-languages-to-eclipse-with-the-colorer-library/
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - HCR
+  - Eclipse
+  - Syntax-Highlighting
 ---
 Say you have an [HRC](http://colorer.sourceforge.net/hrc-ref/index.html) file containing the syntax and lexical structure of some programming language Eclipse does not support (for example [D](http://thecybershadow.net/d/colorer/)).
 

@@ -8,7 +8,10 @@ permalink: /2014/09/controlling-the-physical-storage-location-of-the-azure-stora
 sharing_disabled:
   - "1"
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - Azure
+  - Azure-Storage
 ---
 The Azure Storage Emulator is a very convenient tool for working against mocked Azure Storage services &#8211; blobs, queues and tables. However, it appears to have no visible means of setting the physical location used for storage, or even determining it. Luckily, both are easily achieve.
 

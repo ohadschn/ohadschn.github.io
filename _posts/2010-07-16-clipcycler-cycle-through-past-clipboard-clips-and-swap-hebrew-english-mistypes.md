@@ -6,7 +6,9 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=35
 permalink: /2010/07/clipcycler-cycle-through-past-clipboard-clips-and-swap-hebrew-english-mistypes/
 categories:
-  - Uncategorized
+  - Tools
+tags:
+  - Clipboard
 ---
 Some of you may be familiar with the [clipboard cycling feature of Visual Studio](http://msdn.microsoft.com/en-us/library/aa301782(VS.71).aspx), which basically stores recent clipboard items and lets you cycle through them. Personally I like this feature a lot, so I&#8217;ve created [ClipCycler](http://sourceforge.net/projects/clipcycler/) (opensource) to introduce it to all windows applications.
 

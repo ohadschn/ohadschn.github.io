@@ -6,7 +6,11 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=653
 permalink: /2016/04/creating-beautiful-wordpress-header-images-for-free-legally/
 categories:
-  - Uncategorized
+  - Blogging
+  - Multimedia
+tags:
+  - WordPress
+  - Free-Images
 ---
 Personally, I like using the official WordPress.org themes as they always seem to look professional and clean. Moreover, they are very unlikely to contain bugs or compatibility issues like I&#8217;ve seen in the past with various other themes I tried. Consequently, I recently updated my blog&#8217;s theme to <a href="https://wordpress.org/themes/twentysixteen/" target="_blank">Twenty Sixteen</a>. To my surprise though, no header image was included (it is included in other WordPress themes) and the top section seemed a little barren.
 

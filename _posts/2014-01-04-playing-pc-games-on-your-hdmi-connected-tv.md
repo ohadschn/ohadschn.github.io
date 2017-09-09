@@ -6,7 +6,11 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=151
 permalink: /2014/01/playing-pc-games-on-your-hdmi-connected-tv/
 categories:
-  - Uncategorized
+  - Gaming
+tags:
+  - Steam
+  - HDMI
+  - HTPC
 ---
 Many people have a TV connected to their computer via HDMI as their secondary monitor. It is very convenient for HTPC usages, but playing games on the TV can be nice as well (especially when you have a gamepad connected).
 

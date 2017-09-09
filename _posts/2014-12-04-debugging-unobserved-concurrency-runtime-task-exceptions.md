@@ -8,7 +8,13 @@ permalink: /2014/12/debugging-unobserved-concurrency-runtime-task-exceptions/
 sharing_disabled:
   - "1"
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - C++
+  - Debugging
+  - Concurrency
+  - LLDB
+  - PPLX
 ---
 The [C++ Concurrency runtime](http://msdn.microsoft.com/en-us/library/dd504870.aspx) (AKA PPLX) is the unmanaged answer to the [Task Parallel Library (TPL)](http://msdn.microsoft.com/en-us/library/dd460717%28v=vs.110%29.aspx), and it works surprisingly well. It is even cross platform by way of the [C++ Rest SDK](https://casablanca.codeplex.com/) (codename Casablanca).
 

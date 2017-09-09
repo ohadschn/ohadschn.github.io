@@ -8,7 +8,13 @@ permalink: /2014/12/static-definitions-in-header-files-may-cause-malloc-errors-o
 sharing_disabled:
   - "1"
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - C++
+  - Debugging
+  - LLDB
+  - XCTest
+  - Kiwi
 ---
 I recently encountered the following error in the shutdown procedure of XCTest (we&#8217;re using Kiwi which is based on it):
 

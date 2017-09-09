@@ -8,7 +8,11 @@ permalink: /2014/06/the-windows-api-code-pack-the-case-of-the-missing-samples/
 geo_public:
   - "0"
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - Windows
+  - API
+  - Samples
 ---
 The [Windows API Code Pack](http://msdn.microsoft.com/en-us/library/ff356173(v=vs.110).aspx) can be a boon for managed code developers wanting to access Windows functionality such as the TaskBar, Windows Shell, DirectX, Aero, Sensors, and more (see the article for a more complete list).
 

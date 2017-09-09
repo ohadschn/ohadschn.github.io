@@ -6,7 +6,10 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=552
 permalink: /2015/06/howlongtobeatsteam/
 categories:
-  - Uncategorized
+  - Gaming
+tags:
+  - HLTBS
+  - Steam
 ---
 Ever wonder how long it would take you to complete your entire Steam library? I know I did about 10 months ago. Alas, the only site that would answer me at that time, <a href="http://natecollings.com/" target="_blank">Nate Collings</a>&#8216; cool <a href="http://steamplaytime.appspot.com/" target="_blank">SteamPlaytime</a>, has closed up shop. 
 

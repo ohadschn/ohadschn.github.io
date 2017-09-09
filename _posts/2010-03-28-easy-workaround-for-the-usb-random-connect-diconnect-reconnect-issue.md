@@ -6,7 +6,11 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=22
 permalink: /2010/03/easy-workaround-for-the-usb-random-connect-diconnect-reconnect-issue/
 categories:
-  - Uncategorized
+  - Tips
+  - Troubleshooting
+tags:
+  - USB
+  - Nirsoft
 ---
 Symptom: your laptop makes the USB connect/disconnect sounds randomly, even when no USB devices are connected to your computer
 

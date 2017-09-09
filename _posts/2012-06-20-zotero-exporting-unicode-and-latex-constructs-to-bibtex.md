@@ -1,12 +1,16 @@
 ---
 id: 55
-title: 'Zotero &#8211; exporting Unicode and LaTeX constructs to BibTex'
+title: 'Zotero &#8211; exporting Unicode and LaTeX constructs to BibTeX'
 date: 2012-06-20T00:16:11+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=55
 permalink: /2012/06/zotero-exporting-unicode-and-latex-constructs-to-bibtex/
 categories:
-  - Uncategorized
+  - Tips
+tags:
+  - Unicode
+  - LaTeX
+  - BibTeX
 ---
 [Zotero](http://www.zotero.org/ "Zotero") is a great reference manager, especially if you&#8217;re using Firefox. Its BibTeX export is invaluable for LaTeX / LyX users. However, it has a couple of sticking points whose solutions are not well documented. These issues can be especially annoying for researchers working in exact sciences (math, physics, etc.)
 

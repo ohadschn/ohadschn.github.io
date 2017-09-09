@@ -12,7 +12,13 @@ publicize_google_plus_url:
 publicize_linkedin_url:
   - ""
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - C++
+  - Standard-Library
+  - Concurrency
+  - Tasks
+  - PPLX
 ---
 I recently encountered an interesting crash in our iOS application at work. Here’s the relevant stack trace section:
 
@@ -37,3 +43,5 @@ This is just one example of how things are more difficult with threads than they
 
   * On Windows, tasks are built in Visual Studio as part of the [Concurrency Runtime](https://msdn.microsoft.com/en-us/library/dd504870.aspx)
   * On other platforms, you can use the PPL tasks module in the [C++ Rest SDK (formerly Casablanca)](https://casablanca.codeplex.com/)
+
+  Both of the above are known as PPLX.

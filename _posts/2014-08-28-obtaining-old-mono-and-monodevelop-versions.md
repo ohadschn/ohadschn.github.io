@@ -8,7 +8,11 @@ permalink: /2014/08/obtaining-old-mono-and-monodevelop-versions/
 sharing_disabled:
   - "1"
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - Mono
+  - MonoDevelop
+  - Mac
 ---
 I was recently looking for old Mono and MonoDevelop Mac versions and realised they weren&#8217;t trivial to find. So for the benefit of all mankind, here are the links:
 

@@ -8,7 +8,11 @@ permalink: /2014/10/getting-started-with-etw-using-nets-eventsource/
 sharing_disabled:
   - "1"
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - ETW
+  - EventSource
+  - Eventing
 ---
 .NET 4.5 introduced the [EventSource](http://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource(v=vs.110).aspx) class, allowing convenient access to [Event Tracing for Windows (ETW)](http://msdn.microsoft.com/en-us/library/windows/desktop/bb968803(v=vs.85).aspx) from managed code. This is a boon for enterprise developers, and I encourage you to go read up on it at [MSDN](http://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource(v=vs.110).aspx). Also, be sure sure to check out [Vance Morrison’s EventSource blog entries](http://blogs.msdn.com/b/vancem/archive/tags/eventsource/). Another useful blog by MS MVP Kathleen Dollard is [Leaning into Windows](http://blogs.msmvps.com/kathleen/), and [Muhammad Shujaat Siddiqi&#8217;s blog](http://www.shujaat.net/) is worth checking out as well.
 

@@ -6,7 +6,13 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=591
 permalink: /2016/01/controlling-roku-from-restricted-windows-phone-devices/
 categories:
-  - Uncategorized
+  - Multimedia
+tags:
+  - Roku
+  - Remote-Control
+  - Windows-Phone
+  - DD-WRT
+  - DNS
 ---
 **Scroll to the bottom if you want the TLDR version of controlling Roku devices from restricted Windows Phone devices**
 

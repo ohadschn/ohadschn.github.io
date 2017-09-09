@@ -6,7 +6,10 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=30
 permalink: /2010/04/using-your-mobile-phone-as-a-remote-control-for-your-pc-laptop-via-bluetooth/
 categories:
-  - Uncategorized
+  - Tips
+tags:
+  - Remote-Control
+  - Bluetooth
 ---
 I was looking for a free utility to do this, and after some googling I bumped into [JM2PC](https://sourceforge.net/projects/jm2pc/).
 

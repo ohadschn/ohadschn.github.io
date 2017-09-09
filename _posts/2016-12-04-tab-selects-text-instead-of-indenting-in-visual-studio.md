@@ -6,7 +6,11 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=757
 permalink: /2016/12/tab-selects-text-instead-of-indenting-in-visual-studio/
 categories:
-  - Uncategorized
+  - Software-Development
+  - Tips
+tags:
+  - Visual-Studio
+  - Resharper
 ---
 I ran into an annoying phenomena today when I tried indenting some multi-line expression I had in my code. I pressed TAB but instead of indenting, it selected some text. This was driving me mad so I started enabling and disabling extensions (binary search to the rescue) until I isolated the culprit &#8211; Resharper.
 

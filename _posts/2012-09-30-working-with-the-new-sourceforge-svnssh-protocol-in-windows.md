@@ -6,7 +6,13 @@ author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=74
 permalink: /2012/09/working-with-the-new-sourceforge-svnssh-protocol-in-windows/
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - SourceForge
+  - TortoiseSVN
+  - AnkhSVN
+  - SSH
+  - SVN
 ---
 I&#8217;ve been using [TortoiseSVN](http://tortoisesvn.net/) and [AnkhSVN](http://ankhsvn.open.collab.net/) for quite some time with [SourceForge](https://sourceforge.net/). Both have been working flawlessly. However, SF recently updated their SVN system to use SVN over SSH (svn+ssh) for read/write access. For TortoiseSVN, this meant entering the password on every commit. AnkhSVN simply stopped working (something about not being able to open a tunnel to the repository). The recommended, secure fix for these problems appeared to be [SSH keys](https://sourceforge.net/apps/trac/sourceforge/wiki/SSH%20keys). However, setting up my keys did not yield consistent results. TortoiseSVN worked, but most of the time it still asked for my password, which was annoying. AnkhSVN still didn&#8217;t work (it started [plink](http://the.earth.li/~sgtatham/putty/0.53b/htmldoc/Chapter7.html) which appeared to be stuck). I also didn&#8217;t like having [Pageant](http://the.earth.li/~sgtatham/putty/0.58/htmldoc/Chapter9.html) running in the background all the time. Luckily, I&#8217;ve found [another way](https://sourceforge.net/p/mcebuddy2x/wiki/Developer%20Access%20to%20SVN%20Code%20Repository/). It may not be as secure, since you&#8217;re storing your password in plain text, but it&#8217;s good enough for me:
 

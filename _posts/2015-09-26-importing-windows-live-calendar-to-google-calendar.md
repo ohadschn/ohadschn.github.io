@@ -6,7 +6,11 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=582
 permalink: /2015/09/importing-windows-live-calendar-to-google-calendar/
 categories:
-  - Uncategorized
+  - Tips
+tags:
+  - Google
+  - Outlook
+  - Calendar
 ---
 Windows Live is a great calendar, but it is good to know you have the option to migrate to Google Calender, should you desire to do so. The process is quite simple:
 

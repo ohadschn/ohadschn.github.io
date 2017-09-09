@@ -8,7 +8,11 @@ permalink: /2014/11/should-you-use-stdstring-stdu16string-or-stdu32string/
 sharing_disabled:
   - "1"
 categories:
-  - Uncategorized
+  - Software-Development
+tags:
+  - C++
+  - Strings
+  - Unicode
 ---
 C++11 introduced a couple of new string classes on top of [std::string](http://www.cplusplus.com/reference/string/string/):
 

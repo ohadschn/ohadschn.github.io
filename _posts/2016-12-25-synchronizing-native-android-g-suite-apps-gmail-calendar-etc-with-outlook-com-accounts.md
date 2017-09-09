@@ -6,7 +6,12 @@ author: ohadsc
 guid: http://www.ohadsoft.com/?p=762
 permalink: /2016/12/synchronizing-native-android-g-suite-apps-gmail-calendar-etc-with-outlook-com-accounts/
 categories:
-  - Uncategorized
+  - Tips
+Tags:
+  - Outlook.com
+  - GSuite
+  - Android
+  - Calendar
 ---
 **TLDR &#8211; scroll to the bottom for a checklist of what you need to do**
 
