@@ -234,7 +234,5 @@ defaults:
 theme: minimal-mistakes-jekyll
 
 strict_front_matter: true
-
-# enable when warning-free gem version of minimal-mistakes is available
-# liquid:
-#  error_mode: strict
+liquid:
+ error_mode: strict
