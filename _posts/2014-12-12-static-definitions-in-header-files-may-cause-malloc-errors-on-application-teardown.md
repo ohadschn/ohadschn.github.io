@@ -25,7 +25,7 @@ Here&#8217;s how the stack looked like (truncated to section of interest):
   
 …
 frame #4: 0x00e12ae7 OurProduct`std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >::~basic_string(this=0x042a2058) + 103 at string:2093
-frame #5: 0x00e10cb7 OurProductI`std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >::~basic_string(this=0x042a2058) + 23 at string:2090
+frame #5: 0x00e10cb7 OurProduct`std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >::~basic_string(this=0x042a2058) + 23 at string:2090
 frame #6: 0x0c94a7ac libsystem_sim_c.dylib`__cxa_finalize_ranges + 315
 frame #7: 0x0c94a832 libsystem_sim_c.dylib`__cxa_finalize + 59
 frame #8: 0x0c94ab55 libsystem_sim_c.dylib`exit + 57
@@ -43,7 +43,7 @@ Failing to answer that question armed with the data above alone, I proceeded to
 (lldb) frame variable this
 (std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >) *this = {
 __r_ = {
-std::__1::__libcpp_compressed_pair_imp<std::\__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >::\__rep, std::__1::allocator<char16_t> > = {
+std::__1::__libcpp_compressed_pair_imp<std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >::__rep, std::__1::allocator<char16_t> > = {
 __first_ = {
 = {
 __l = (__cap_ = 17, __size_ = 14, __data_ = u&#8221;**Helvetica Neue**&#8220;)

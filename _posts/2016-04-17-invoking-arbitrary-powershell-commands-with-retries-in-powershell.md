@@ -76,7 +76,7 @@ function Call-PSCommandWithRetries
    $exceptionThrown = $false
    try
    {
-    & $Command @Arguments 2&gt;&1 | tee -Variable output | Write-Host
+    & $Command @Arguments 2>&1 | tee -Variable output | Write-Host
    }
    catch
    {

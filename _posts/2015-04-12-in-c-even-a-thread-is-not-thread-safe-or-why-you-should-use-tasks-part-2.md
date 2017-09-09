@@ -60,7 +60,7 @@ void work()
 
 void wait(thread* t)
 {
-    lock_guard&lt;std::mutex> lock(m);
+    lock_guard<std::mutex> lock(m);
     if (t->joinable())
     {
         t->join();
@@ -82,7 +82,7 @@ int _tmain()
 
 Of course, were you using _tasks_, you wouldn&#8217;t have needed to concern yourself with such trivialities:
 
-```
+```cpp
 using namespace std;
 using namespace concurrency;
 

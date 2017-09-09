@@ -28,7 +28,6 @@ To recap &#8211; once you&#8217;ve decided whether you like _www_ or not, and fi
 In addition, you want HSTS headers (_Strict\_Transport\_Security_) in place. Fortunately, using the <a href="http://www.iis.net/learn/extensions/url-rewrite-module/url-rewrite-module-20-configuration-reference" target="_blank">IIS Rewrite module</a> (installed by default on Azure deployments), accomplishing all of the above is a breeze:
 
 ```xml
-<pre class="brush: xml; title: ; notranslate" title=""><configuration>
 <system.webServer>
  <rewrite>
   <rules>
@@ -57,6 +56,5 @@ In addition, you want HSTS headers (_Strict\_Transport\_Security_) in place. For
  </rewrite>
 </system.webServer>
 </configuration>
-</pre>
 ```
 Happy rewriting 😉

@@ -61,7 +61,7 @@ The output of the last command execution.
 
 .EXAMPLE
 Use cURL for Windows to download the latest NuGet command-line client
-C:\PS&gt; Call-CommandWithRetries "curl.exe" @("--fail", "-O", "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe")
+C:\PS> Call-CommandWithRetries "curl.exe" @("--fail", "-O", "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe")
 
 #>
 function Call-CommandWithRetries
@@ -83,7 +83,7 @@ function Call-CommandWithRetries
   while ($true)
   {   
    Write-Host $(if ($PrintCommand) {"Executing: $Command $Arguments"} else {"Executing command..."}) 
-   & $Command $Arguments 2&gt;&1 | tee -Variable output | Write-Host
+   & $Command $Arguments 2>&1 | tee -Variable output | Write-Host
         
    $stderr = $output | where { $_ -is [System.Management.Automation.ErrorRecord] }
    if ( ($LASTEXITCODE -eq 0) -and ($TrustExitCode -or !($stderr)) )
