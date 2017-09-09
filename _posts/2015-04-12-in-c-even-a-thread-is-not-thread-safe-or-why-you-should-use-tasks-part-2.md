@@ -5,14 +5,6 @@ date: 2015-04-12T22:14:17+00:00
 author: ohadsc
 guid: https://ohadsc.wordpress.com/?p=465
 permalink: /2015/04/in-c-even-a-thread-is-not-thread-safe-or-why-you-should-use-tasks-part-2/
-publicize_google_plus_url:
-  - https://plus.google.com/+OhadSchneider/posts/CzMCCEKMCze
-publicize_facebook_url:
-  - https://facebook.com/
-  - https://facebook.com/
-publicize_linkedin_url:
-  - ""
-  - ""
 categories:
   - Software-Development
 tags:

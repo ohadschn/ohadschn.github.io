@@ -5,8 +5,6 @@ date: 2014-05-31T21:11:35+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=248
 permalink: /2014/05/creating-managed-wrappers-for-com-interfaces/
-geo_public:
-  - "0"
 categories:
   - Software-Development
 tags:

@@ -5,8 +5,6 @@ date: 2014-08-16T23:31:17+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=387
 permalink: /2014/08/getting-spinner-gifs-from-a-cdn/
-sharing_disabled:
-  - "1"
 categories:
   - Software-Development
   - Web

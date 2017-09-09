@@ -5,8 +5,6 @@ date: 2014-12-12T17:50:47+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=430
 permalink: /2014/12/static-definitions-in-header-files-may-cause-malloc-errors-on-application-teardown/
-sharing_disabled:
-  - "1"
 categories:
   - Software-Development
 tags:

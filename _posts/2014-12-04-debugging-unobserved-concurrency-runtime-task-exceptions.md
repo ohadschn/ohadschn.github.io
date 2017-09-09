@@ -5,8 +5,6 @@ date: 2014-12-04T21:42:19+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=427
 permalink: /2014/12/debugging-unobserved-concurrency-runtime-task-exceptions/
-sharing_disabled:
-  - "1"
 categories:
   - Software-Development
 tags:

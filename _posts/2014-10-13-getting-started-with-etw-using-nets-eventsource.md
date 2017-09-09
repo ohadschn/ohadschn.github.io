@@ -5,8 +5,6 @@ date: 2014-10-13T13:26:18+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=411
 permalink: /2014/10/getting-started-with-etw-using-nets-eventsource/
-sharing_disabled:
-  - "1"
 categories:
   - Software-Development
 tags:

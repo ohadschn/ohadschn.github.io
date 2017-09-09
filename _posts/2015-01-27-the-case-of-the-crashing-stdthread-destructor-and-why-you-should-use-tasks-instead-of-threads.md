@@ -5,12 +5,6 @@ date: 2015-01-27T23:36:21+00:00
 author: ohadsc
 guid: https://ohadsc.wordpress.com/?p=458
 permalink: /2015/01/the-case-of-the-crashing-stdthread-destructor-and-why-you-should-use-tasks-instead-of-threads/
-publicize_facebook_url:
-  - https://facebook.com/10153062325093249
-publicize_google_plus_url:
-  - ""
-publicize_linkedin_url:
-  - ""
 categories:
   - Software-Development
 tags:

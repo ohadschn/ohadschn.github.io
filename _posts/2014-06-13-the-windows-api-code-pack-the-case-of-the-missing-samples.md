@@ -5,8 +5,6 @@ date: 2014-06-13T15:35:55+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=334
 permalink: /2014/06/the-windows-api-code-pack-the-case-of-the-missing-samples/
-geo_public:
-  - "0"
 categories:
   - Software-Development
 tags:

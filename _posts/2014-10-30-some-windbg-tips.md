@@ -5,8 +5,6 @@ date: 2014-10-30T00:20:51+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=415
 permalink: /2014/10/some-windbg-tips/
-sharing_disabled:
-  - "1"
 categories:
   - Software-Development
 tags:

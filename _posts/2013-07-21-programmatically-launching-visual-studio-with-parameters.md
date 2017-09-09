@@ -5,8 +5,6 @@ date: 2013-07-21T23:37:48+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=106
 permalink: /2013/07/programmatically-launching-visual-studio-with-parameters/
-geo_public:
-  - "0"
 categories:
   - Software-Development
 tags:

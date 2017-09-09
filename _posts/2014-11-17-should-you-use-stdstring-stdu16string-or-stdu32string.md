@@ -5,8 +5,6 @@ date: 2014-11-17T22:56:39+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/?p=418
 permalink: /2014/11/should-you-use-stdstring-stdu16string-or-stdu32string/
-sharing_disabled:
-  - "1"
 categories:
   - Software-Development
 tags:

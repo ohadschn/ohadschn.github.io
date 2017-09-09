@@ -5,8 +5,6 @@ date: 2014-08-28T18:36:56+00:00
 author: ohadsc
 guid: http://ohadsc.wordpress.com/2014/08/28/obtaining-old-mono-and-monodevelop-versions/
 permalink: /2014/08/obtaining-old-mono-and-monodevelop-versions/
-sharing_disabled:
-  - "1"
 categories:
   - Software-Development
 tags:
