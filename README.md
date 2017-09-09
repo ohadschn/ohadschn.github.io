@@ -3,4 +3,4 @@
 
 ---
 
-Source repository for https://blog.ohadsoft.com (https://ohadschn.gitlab.io).
+Source repository for https://www.ohadsoft.com (https://ohadschn.gitlab.io).
