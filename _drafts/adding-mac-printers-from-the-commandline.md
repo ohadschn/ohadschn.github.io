@@ -1,0 +1,1 @@
+`lpadmin -p OSXPrinter -m drv:///sample.drv/laserjet.ppd -v lpd://ildc-prn-srv/OSXPrinter -o printer-is-shared=false –E`

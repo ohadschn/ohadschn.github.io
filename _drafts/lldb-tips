@@ -1,0 +1,1 @@
+lldb tricks - expr -P N — foo (follow N pointer levels), mySharedPtr.__ptr_->myFunc() (call functions on shared ptrs), fr v -L -T (show locations and types) + use help!!

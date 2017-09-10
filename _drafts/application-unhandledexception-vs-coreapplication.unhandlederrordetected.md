@@ -1,0 +1,1 @@
+details in email + http://stackoverflow.com/questions/32739013/stacktrace-reported-by-unhandledexceptioneventargs-exception-becomes-null-after

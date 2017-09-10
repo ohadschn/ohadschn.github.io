@@ -1,0 +1,1 @@
+Why dynamic should be avoided - XML, COM, other supposedly good usages

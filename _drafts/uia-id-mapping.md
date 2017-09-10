@@ -1,0 +1,1 @@
+In HTML, Automation ID = id, Automation Name = title

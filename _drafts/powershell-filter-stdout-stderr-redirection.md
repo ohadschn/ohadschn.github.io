@@ -1,0 +1,1 @@
+Powershell process - redirect 2>&1, tee output, params in array (splatting for PS), filter stderr with System.Management.Automation.ErrorRecord, LastExitCode instead of $?, Invoke-With-Retries

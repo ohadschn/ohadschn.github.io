@@ -1,0 +1,1 @@
+Application Insights - correlate custom events with built-in ones using Operation ID and client session ID.

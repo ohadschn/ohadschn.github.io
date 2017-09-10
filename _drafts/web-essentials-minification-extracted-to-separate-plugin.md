@@ -1,0 +1,1 @@
+also source maps need `"sourceMap": true`

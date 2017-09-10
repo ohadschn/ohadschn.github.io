@@ -1,0 +1,1 @@
+Nuget package manager gone - install from nuget.org (repair didn't work, all blogs said it should be there, it didn't show up in the nuget search)

@@ -121,3 +121,5 @@ Inspectors &#8211; Inspect.exe, Appium Inspector
 UI tree as XML &#8211; consider XPath
   
 Screenshots (before, after, and after each wait condition)
+
+sleep, timeout, screenshot, log, non existing elements

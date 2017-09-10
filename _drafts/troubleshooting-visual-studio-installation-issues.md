@@ -1,0 +1,1 @@
+Visual studio installation issue - look in log, find exe, find that exe in the package cache folder, try uninstalling that one etc. recursively. If some uninstallation fails, use the tool from the comment here: http://stackoverflow.com/questions/38134005/
