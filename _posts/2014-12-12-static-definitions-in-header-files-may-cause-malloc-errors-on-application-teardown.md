@@ -50,7 +50,7 @@ __l = (__cap_ = 17, __size_ = 14, __data_ = u&#8221;**Helvetica Neue**&#8220;)
 ...
 ```
 
-The string looked innocent enough. However, upon finding it in our code (thankfully the literal appeared as is, and only once), I noticed it was **defined** (initialized) in the header. Statics should be **declared** in the header &#8211; never defined. Code such as  _Bar::foo = &#8220;Helvetica Neue&#8221;_ belongs in the _cpp_ file. For more information see <http://stackoverflow.com/questions/185844/initializing-private-static-members>.
+The string looked innocent enough. However, upon finding it in our code (thankfully the literal appeared as is, and only once), I noticed it was **defined** (initialized) in the header. Statics should be **declared** in the header &#8211; never defined. Code such as  _Bar::foo = &#8220;Helvetica Neue&#8221;_ belongs in the _cpp_ file. For more information see <https://stackoverflow.com/questions/185844/initializing-private-static-members>.
 
 And indeed, moving the definition to the _cpp_ resolved the issue. Now, the keen reader will notice that a **linker** error should have been thrown, rather than the runtime exception I encountered. I&#8217;m not exactly clear on why the former was not the case, but the prevailing theory entails a linker optimization that allocated only once for multiple compilation units, which backfired when the shutdown sequence tried to free all occurrences separately (or one occurrence that happened to not be the one that was initialized).
 

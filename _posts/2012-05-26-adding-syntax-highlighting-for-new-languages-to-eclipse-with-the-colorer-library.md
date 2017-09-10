@@ -12,7 +12,7 @@ tags:
   - Eclipse
   - Syntax-Highlighting
 ---
-Say you have an [HRC](http://colorer.sourceforge.net/hrc-ref/index.html) file containing the syntax and lexical structure of some programming language Eclipse does not support (for example [D](http://thecybershadow.net/d/colorer/)).
+Say you have an [HRC](https://colorer.sourceforge.net/hrc-ref/index.html) file containing the syntax and lexical structure of some programming language Eclipse does not support (for example [D](http://thecybershadow.net/d/colorer/)).
 
 Using the [EclipseColorer](http://colorer.sourceforge.net/eclipsecolorer/) plugin, you can easily add support for it. For this tutorial I&#8217;ll be using _Eclipse Classic 3.7.2 32-bit_.
 
@@ -34,7 +34,7 @@ _
     "http://colorer.sf.net/2003/hrc.dtd"
     >
     <hrc version="take5" xmlns="http://colorer.sf.net/2003/hrc"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://colorer.sf.net/2003/hrc http://colorer.sf.net/2003/hrc.xsd"
     ><annotation><documentation>
     'auto' is a place for include
@@ -55,7 +55,7 @@ _
 
 All done! Now you can open your new language files in Eclipse and enjoy syntax highlighting and parsing.
 
-Adding new language support to [FAR manager](http://www.farmanager.com/) ([plugin](http://colorer.sourceforge.net/farplugin.html)) and [Midnight Commander](http://www.gnu.org/software/mc/) ([plugin](http://colorer.sourceforge.net/mc.html)) is similar.[
+Adding new language support to [FAR manager](https://www.farmanager.com/) ([plugin](http://colorer.sourceforge.net/farplugin.html)) and [Midnight Commander](https://www.gnu.org/software/mc/) ([plugin](http://colorer.sourceforge.net/mc.html)) is similar.[
   
 ](http://colorer.sourceforge.net/farplugin.html) 
 
@@ -67,8 +67,8 @@ Adding new language support to [FAR manager](http://www.farmanager.com/) ([plugi
 
 <http://colorer.sourceforge.net/other/Color5Eclipse_Newlanguagedoc.html>
 
-<http://thecybershadow.net/d/colorer/>
+<https://thecybershadow.net/d/colorer/>
 
-<http://mcnptips.blogspot.com/2011/08/mcnp-input-file-syntax-for-farcolorer.html>
+<https://mcnptips.blogspot.com/2011/08/mcnp-input-file-syntax-for-farcolorer.html>
 
-<http://help.eclipse.org/helios/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Ftasks%2Ftasks-124.htm>
+<https://help.eclipse.org/helios/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Ftasks%2Ftasks-124.htm>

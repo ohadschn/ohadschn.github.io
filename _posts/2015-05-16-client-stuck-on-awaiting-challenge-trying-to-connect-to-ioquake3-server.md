@@ -15,7 +15,7 @@ tags:
 ---
 Every week, I meet up with a group of friends from work for a LAN party. Since the age-old Quake vs Unreal debate could not be settled (obviously Quake is better and they are wrong), we decided to alternate between Quake3 and Unreal 2004.
 
-Last week was Quake&#8217;s turn, so I naturally set up a [dedicated server](http://www.quake3world.com/q3guide/servers.html). Alas, even though most people were able to connect and play without issue, some got stuck in the dreaded &#8220;Awaiting Challenge&#8221; stage and could not connect. The Unreal fans rejoiced, believing this spelled the end of our quake sessions.
+Last week was Quake&#8217;s turn, so I naturally set up a [dedicated server](https://www.quake3world.com/q3guide/servers.html). Alas, even though most people were able to connect and play without issue, some got stuck in the dreaded &#8220;Awaiting Challenge&#8221; stage and could not connect. The Unreal fans rejoiced, believing this spelled the end of our quake sessions.
 
 But my resolve when it comes to Quake should not be underestimated&#8230;
 
@@ -25,6 +25,6 @@ You have several options to work around this issue:
 
   1. Specify the IPv4 address of the server explicitly
   2. Force IPv4 resolution by issuing the console (~) command **_/connect -4 hostName_**
-  3. Disable IPv6 in the client by adding the following lines to your _[autoexec.cfg](http://www.quake3world.com/q3guide/configs.html)_: `set net_enabled 1 net_restart`
+  3. Disable IPv6 in the client by adding the following lines to your _[autoexec.cfg](https://www.quake3world.com/q3guide/configs.html)_: `set net_enabled 1 net_restart`
 
 Happy fragging!

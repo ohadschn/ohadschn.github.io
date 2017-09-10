@@ -26,7 +26,7 @@ In my despair, I contacted Roku support. The representative quickly determined
 
 So I went to the Windows Store on my PC and installed the Roku Windows Store app. It immediately recognized my device and lo and behold &#8211; it was able to control it effortlessly. Motivated by my discovery, I powered on an old Android device and Installed a Roku remote app. Again, it worked right out of the box.
 
-At this point I became very curious. Why were the WP apps failing? It can&#8217;t be a coincidence, especially considering the fact that many reviewers confirmed those apps did in fact deliver on their promise and controlled the device. To satisfy my curiosity, I referred to Roku&#8217;s [REST API documentation](http://sdkdocs.roku.com/display/sdkdoc/External+Control+Guide). It literally could not be any simpler. Want to press the _Home_ key? This is all you need to do:
+At this point I became very curious. Why were the WP apps failing? It can&#8217;t be a coincidence, especially considering the fact that many reviewers confirmed those apps did in fact deliver on their promise and controlled the device. To satisfy my curiosity, I referred to Roku&#8217;s [REST API documentation](https://sdkdocs.roku.com/display/sdkdoc/External+Control+Guide). It literally could not be any simpler. Want to press the _Home_ key? This is all you need to do:
 
 ```bash
 curl -d '' http://192.168.1.134:8060/keypress/home
@@ -50,7 +50,7 @@ If your router doesn&#8217;t support domain redirection, you can use a domain 
 
 This spelled the end of _RemoRoku_ before it was even born, and with it my inevitable rise to fame and fortune. I guess you can&#8217;t win them all!
 
-The DNSMasq rule did have one unfortunate side effect though &#8211; it seems that Plex secure connections require [additional configuration](https://support.plex.tv/hc/en-us/articles/206225077) in order to work alongside it, and that configuration is [not supported on DD-WRT without compromising security or switching a DNS provider](http://www.dd-wrt.com/phpBB2/viewtopic.php?p=974492&sid=b4aa2b93493a2952712709e8247e900d#974492) (which I did not feel like doing at 4 AM). So I just approved insecure Plex connections inside my private network &#8211; I trust my WPA2 protection so I won&#8217;t lose much sleep over this.
+The DNSMasq rule did have one unfortunate side effect though &#8211; it seems that Plex secure connections require [additional configuration](https://support.plex.tv/hc/en-us/articles/206225077) in order to work alongside it, and that configuration is [not supported on DD-WRT without compromising security or switching a DNS provider](https://www.dd-wrt.com/phpBB2/viewtopic.php?p=974492&sid=b4aa2b93493a2952712709e8247e900d#974492) (which I did not feel like doing at 4 AM). So I just approved insecure Plex connections inside my private network &#8211; I trust my WPA2 protection so I won&#8217;t lose much sleep over this.
 
 TLDR
 

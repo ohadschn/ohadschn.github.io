@@ -16,9 +16,9 @@ I&#8217;ve been using XBMC for some time as my HTPC driver. Having an MCE remote
 
   1. It replaces the wrong file (_ehshell.exe_ instead of  _ehtray.exe)_ which caused me some issues
   2. It uses hard-coded locations and is specific to XBMC
-  3. The code is not green in [Resharper](http://www.jetbrains.com/resharper/) 🙂
+  3. The code is not green in [Resharper](https://www.jetbrains.com/resharper/) 🙂
 
-So I took the code and generalized it to a small program that lets you configure exactly which program will be launched by which MCE button. The result: [MCE Launcher](http://sourceforge.net/projects/mcelauncher/) (see the Readme file for installation and configuration).
+So I took the code and generalized it to a small program that lets you configure exactly which program will be launched by which MCE button. The result: [MCE Launcher](https://sourceforge.net/projects/mcelauncher/) (see the Readme file for installation and configuration).
 
 &nbsp;
 

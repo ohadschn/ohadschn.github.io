@@ -17,4 +17,4 @@ Following the instructions in its Readme.TXT file, you can have your mobile remo
 
 Another interesting freebie is [MobileWitch](http://www.mobilewitch.com/Mobilewitch-Bluetooth-Remote-Control_software_details_2.htm), which at first glance seems similar, so you might want to check it out as well.
 
-If you&#8217;re willing to pay (I&#8217;m not a great believer of paid software), [Vectir](http://www.vectir.com) might be what you&#8217;re after.
+If you&#8217;re willing to pay (I&#8217;m not a great believer of paid software), [Vectir](https://www.vectir.com) might be what you&#8217;re after.

@@ -23,11 +23,11 @@ libc++.1.dylib std::__1::thread::~thread()
 …
 ```
 
-Luckily, the documentation for [std::~thread](http://en.cppreference.com/w/cpp/thread/thread/~thread) provides us with the root cause:
+Luckily, the documentation for [std::~thread](https://en.cppreference.com/w/cpp/thread/thread/~thread) provides us with the root cause:
   
 _**If *this has an associated thread (joinable() == true), std::terminate() is called.**_
 
-Specifically, the [joinable() documentation](http://en.cppreference.com/w/cpp/thread/thread/joinable) states:
+Specifically, the [joinable() documentation](https://en.cppreference.com/w/cpp/thread/thread/joinable) states:
   
 _**A thread that has finished executing code, but has not yet been joined is still considered an active thread of execution and is therefore joinable.**_
 

@@ -38,7 +38,7 @@ data-bind="submit:function(){window.location='#/'+name();}">
 </form>
 ```
 
-The input&#8217;s _data-bind _attribute binds the input&#8217;s value to our view model&#8217;s _name_ observable. The form&#8217;s _data-bind_ attribute binds the form submission event to a URL redirection for the desired Sammy route. For more information about Knockout bindings, visit <http://learn.knockoutjs.com>.
+The input&#8217;s _data-bind _attribute binds the input&#8217;s value to our view model&#8217;s _name_ observable. The form&#8217;s _data-bind_ attribute binds the form submission event to a URL redirection for the desired Sammy route. For more information about Knockout bindings, visit <https://learn.knockoutjs.com>.
 
 The code above works, but not exactly as expected. See, when no _action_ attribute is specified on the form element, the browser assumes the **current URL without hashtags** is the submission URL, and so right after the URL is redirected to _mysite.com/#/MyName_ it is reverted to just _mysite.com_ by the browser.
 

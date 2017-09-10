@@ -18,7 +18,7 @@ This is useful for two reasons
 ;This reg file installs WER and just-in-time debuggers to capture a dump of all process crashes for the machine:
 ;
 ; https://msdn.microsoft.com/en-us/library/windows/desktop/bb787181(v=vs.85).aspx
-; http://blogs.msdn.com/b/dotnet/archive/2009/10/15/automatically-capturing-a-dump-when-a-process-crashes.aspx
+; https://blogs.msdn.com/b/dotnet/archive/2009/10/15/automatically-capturing-a-dump-when-a-process-crashes.aspx
 ;
 ;Assumes 32-bit debugger is cdb.exe and is installed to c:\debuggers\x86\.
 ;Assumes 64-bit debugger is cdb.exe and is installed to c:\debuggers\x64\.

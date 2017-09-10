@@ -15,7 +15,7 @@ The Azure Storage Emulator is a very convenient tool for working against mocked 
 
 **Blobs**
 
-Blobs are stored on the file system, and that location is [very easy](http://stackoverflow.com/a/23671454/67824) to control:
+Blobs are stored on the file system, and that location is [very easy](https://stackoverflow.com/a/23671454/67824) to control:
 
   1. Navigate to _C:Users<YourUserName>AppDataLocalWAStorageEmulator_
   2. Open _WAStorageEmulator.<EmulatorVersion>.config _with the test editor of your choice
@@ -23,12 +23,12 @@ Blobs are stored on the file system, and that location is [very easy](http://sta
 
 **Tables and queues**
 
-Tables and queues are stored in a SQL server database ([LocalDB](http://msdn.microsoft.com/en-us/library/hh510202.aspx) by default), so in order to set the physical storage location, we simply need to set the physical storage location of the database ([mdf file](http://stackoverflow.com/questions/1175882/what-is-an-mdf-file)). We&#8217;ll use the [sqlcmd](http://msdn.microsoft.com/en-us/library/ms162773.aspx) utility to do that:
+Tables and queues are stored in a SQL server database ([LocalDB](https://msdn.microsoft.com/en-us/library/hh510202.aspx) by default), so in order to set the physical storage location, we simply need to set the physical storage location of the database ([mdf file](https://stackoverflow.com/questions/1175882/what-is-an-mdf-file)). We&#8217;ll use the [sqlcmd](https://msdn.microsoft.com/en-us/library/ms162773.aspx) utility to do that:
 
   1. Close all programs that may be using the storage emulator database (the storage emulator itself, management studio, visual studio, etc.)
   2. Run _sqlcmd -S instancePath_ 
       * By default the storage emulator uses LocalDB, so the above would be _sqlcmd -S (localdb)v11.0_
-      * If you [configured a different SQL Server instance](http://msdn.microsoft.com/en-us/library/azure/gg433132.aspx) you&#8217;ll have to use that instead
+      * If you [configured a different SQL Server instance](https://msdn.microsoft.com/en-us/library/azure/gg433132.aspx) you&#8217;ll have to use that instead
       * You can always determine the instance path used by the storage emulator by examining the _SQLInstance_ element in the_ __WAStorageEmulator.<EmulatorVersion>.config_ file mentioned in the Blobs section above
   3. Type the following commands with [enter] after each line: 
       1. _SELECT name, physical\_name AS CurrentLocation, state\_desc FROM sys.master_files_

@@ -19,7 +19,7 @@ Windows Live is a great calendar, but it is good to know you have the option to
   3. In the left pane, click **_get a link_ **
   4. Under _Show event details_ click **_Create_**
   5. Copy the link under _Import into other calendar applications (ICS)_
-  6. Change **_webcals://_** to **_http:// _**and paste the link in your browser to download it
+  6. Change **_webcals://_** to **_https:// _**and paste the link in your browser to download it
   7. Save the ICS file to some location on your computer as _**calendar.ics**_
   8. If you have non-ASCII characters in your events (in my case I have Hebrew characters) you must mark the ICS file as UTF: 
       1. Open _**calendar.ics **_in Notepad++

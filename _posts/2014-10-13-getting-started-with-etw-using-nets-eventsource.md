@@ -12,17 +12,17 @@ tags:
   - EventSource
   - Eventing
 ---
-.NET 4.5 introduced the [EventSource](http://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource(v=vs.110).aspx) class, allowing convenient access to [Event Tracing for Windows (ETW)](http://msdn.microsoft.com/en-us/library/windows/desktop/bb968803(v=vs.85).aspx) from managed code. This is a boon for enterprise developers, and I encourage you to go read up on it at [MSDN](http://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource(v=vs.110).aspx). Also, be sure sure to check out [Vance Morrison’s EventSource blog entries](http://blogs.msdn.com/b/vancem/archive/tags/eventsource/). Another useful blog by MS MVP Kathleen Dollard is [Leaning into Windows](http://blogs.msmvps.com/kathleen/), and [Muhammad Shujaat Siddiqi&#8217;s blog](http://www.shujaat.net/) is worth checking out as well.
+.NET 4.5 introduced the [EventSource](https://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource(v=vs.110).aspx) class, allowing convenient access to [Event Tracing for Windows (ETW)](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968803(v=vs.85).aspx) from managed code. This is a boon for enterprise developers, and I encourage you to go read up on it at [MSDN](https://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource(v=vs.110).aspx). Also, be sure sure to check out [Vance Morrison’s EventSource blog entries](https://blogs.msdn.com/b/vancem/archive/tags/eventsource/). Another useful blog by MS MVP Kathleen Dollard is [Leaning into Windows](https://blogs.msmvps.com/kathleen/), and [Muhammad Shujaat Siddiqi&#8217;s blog](http://www.shujaat.net/) is worth checking out as well.
 
-Once you&#8217;ve got the hang of EventSource, take it to the next level with the Enterprise Library [Semantic Logging Application Block (SLAB)](https://slab.codeplex.com/). You can do some pretty cool stuff with it, including verification of your EventSource class validity, and automatic routing of ETW events to different storage platforms (such as databases, Azure tables, and text files). Start with the [developer&#8217;s guide](http://msdn.microsoft.com/en-us/library/dn440729(v=pandp.60).aspx).
+Once you&#8217;ve got the hang of EventSource, take it to the next level with the Enterprise Library [Semantic Logging Application Block (SLAB)](https://slab.codeplex.com/). You can do some pretty cool stuff with it, including verification of your EventSource class validity, and automatic routing of ETW events to different storage platforms (such as databases, Azure tables, and text files). Start with the [developer&#8217;s guide](https://msdn.microsoft.com/en-us/library/dn440729(v=pandp.60).aspx).
 
-Finally, if you take a close look at the documentation of the [EventSource](http://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource(v=vs.110).aspx) class, you&#8217;ll notice the following note:
+Finally, if you take a close look at the documentation of the [EventSource](https://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource(v=vs.110).aspx) class, you&#8217;ll notice the following note:
 
 > There is a NuGet version of the EventSource class that provides more features. For more information, see [Microsoft EventSource Library 1.0.16](https://www.nuget.org/packages/Microsoft.Diagnostics.Tracing.EventSource).
 
 I couldn&#8217;t find any documentation for this mysterious NuGet package, but I did find its [samples package](https://www.nuget.org/packages/Microsoft.Diagnostics.Tracing.EventSource.Samples). Once you install it you can take a look at the extensively documented code as well as debug and step into the parts you&#8217;re interested in. Be sure to read the guides that accompany the samples: __EventRegisterUsersGuide.docx_ and __EventSourceUsersGuide.docx_ &#8211; they pertain to the vanilla library that comes with .NET as well (not just the NuGet package).
 
-One thing I couldn&#8217;t find is a list of differences between the vanilla .NET EventSource and the NuGet package. Going by the signatures, I only saw a couple more _WriteEvent_ overloads. If you&#8217;ve read the [documentation](http://msdn.microsoft.com/en-us/library/hh393360(v=vs.110).aspx), you should know by now that that&#8217;s a [good thing](http://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource.writeeventcore(v=vs.110).aspx), however digging a little into the code I found another important difference &#8211; event type support.
+One thing I couldn&#8217;t find is a list of differences between the vanilla .NET EventSource and the NuGet package. Going by the signatures, I only saw a couple more _WriteEvent_ overloads. If you&#8217;ve read the [documentation](https://msdn.microsoft.com/en-us/library/hh393360(v=vs.110).aspx), you should know by now that that&#8217;s a [good thing](https://msdn.microsoft.com/en-us/library/system.diagnostics.tracing.eventsource.writeeventcore(v=vs.110).aspx), however digging a little into the code I found another important difference &#8211; event type support.
 
 The .NET version currently supports the following types (taken from ManifestBuilder.GetTypeName):
 
@@ -63,7 +63,7 @@ public void Bar(int i, string s, DateTime d)
 }
 ```
 
-Notice I said _should,_ because I could make neither work (beta after all). But why do we even need this when we already have the _WriteEvent(int eventId, params Object[])_ overload? Well, let&#8217;s look at the [documentation](http://msdn.microsoft.com/en-us/library/hh393360(v=vs.110).aspx) of the latter:
+Notice I said _should,_ because I could make neither work (beta after all). But why do we even need this when we already have the _WriteEvent(int eventId, params Object[])_ overload? Well, let&#8217;s look at the [documentation](https://msdn.microsoft.com/en-us/library/hh393360(v=vs.110).aspx) of the latter:
 
 > By default, the compiler calls this overload if the parameters for the call do not match one of the other method overloads. This overload is much slower than the other overloads, because it does the following:
 > 

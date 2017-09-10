@@ -106,5 +106,5 @@ function Call-PSCommandWithRetries
 
 References:
 
-  * <a href="http://stackoverflow.com/questions/10666101/lastexitcode-0-but-false-in-powershell-redirecting-stderr-to-stdout-gives-n" target="_blank">http://stackoverflow.com/questions/10666101/lastexitcode-0-but-false-in-powershell-redirecting-stderr-to-stdout-gives-n</a>
-  * <a href="http://stackoverflow.com/questions/36164888/using-the-powershell-call-operator-to-call-powershell-scripts-with-switch-pa" target="_blank">http://stackoverflow.com/questions/36164888/using-the-powershell-call-operator-to-call-powershell-scripts-with-switch-pa</a>
+  * <a href="https://stackoverflow.com/questions/10666101/lastexitcode-0-but-false-in-powershell-redirecting-stderr-to-stdout-gives-n" target="_blank">https://stackoverflow.com/questions/10666101/lastexitcode-0-but-false-in-powershell-redirecting-stderr-to-stdout-gives-n</a>
+  * <a href="https://stackoverflow.com/questions/36164888/using-the-powershell-call-operator-to-call-powershell-scripts-with-switch-pa" target="_blank">https://stackoverflow.com/questions/36164888/using-the-powershell-call-operator-to-call-powershell-scripts-with-switch-pa</a>

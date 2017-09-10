@@ -18,7 +18,7 @@ Cause: Probably some loose innards connecting an internal USB device in the lapt
 
 The issue has been discussed in several places, for example:
   
-<a href="http://forum.notebookreview.com/showthread.php?t=178071" target="_blank"><a title="Use CTRL + click or middle-click to open in a new tab" href="void(0);">http://forum.notebookreview.com/showthread.php?t=178071</a></a>
+<a href="https://forum.notebookreview.com/showthread.php?t=178071" target="_blank"><a title="Use CTRL + click or middle-click to open in a new tab" href="void(0);">https://forum.notebookreview.com/showthread.php?t=178071</a></a>
 
 But I haven&#8217;t seen a solution posted, not even a workaround&#8230;
 
@@ -26,9 +26,9 @@ I&#8217;ve encountered this phenomena with a Dell Inspiron 1520, where the USB c
 
 In any case,  you&#8217;d think disabling the defective device in the device manager would stop the annoyance &#8211; well, in my case, it didn&#8217;t
 
-Fortunately, <a href="http://www.nirsoft.net/" target="_blank">Nir Sofer</a> comes to the rescue:
+Fortunately, <a href="https://www.nirsoft.net/" target="_blank">Nir Sofer</a> comes to the rescue:
 
-  1. Download <a href="http://www.nirsoft.net/utils/usb_devices_view.html" target="_blank">USBDeview</a> and run it
+  1. Download <a href="https://www.nirsoft.net/utils/usb_devices_view.html" target="_blank">USBDeview</a> and run it
   2. Sort the list by the &#8220;last plug/unplug date&#8221; column (is this guy a genius or what) &#8211; the problematic device is immediately identified
   3. Right click on it and choose &#8220;disconnect selected devices&#8221;
 

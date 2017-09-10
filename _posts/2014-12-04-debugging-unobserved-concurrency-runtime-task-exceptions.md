@@ -14,9 +14,9 @@ tags:
   - LLDB
   - PPLX
 ---
-The [C++ Concurrency runtime](http://msdn.microsoft.com/en-us/library/dd504870.aspx) (AKA PPLX) is the unmanaged answer to the [Task Parallel Library (TPL)](http://msdn.microsoft.com/en-us/library/dd460717%28v=vs.110%29.aspx), and it works surprisingly well. It is even cross platform by way of the [C++ Rest SDK](https://casablanca.codeplex.com/) (codename Casablanca).
+The [C++ Concurrency runtime](https://msdn.microsoft.com/en-us/library/dd504870.aspx) (AKA PPLX) is the unmanaged answer to the [Task Parallel Library (TPL)](https://msdn.microsoft.com/en-us/library/dd460717%28v=vs.110%29.aspx), and it works surprisingly well. It is even cross platform by way of the [C++ Rest SDK](https://casablanca.codeplex.com/) (codename Casablanca).
 
-I work at Microsoft and in our group we are making extensive use of this library (we develop an iOS application). Recently, I encountered an interesting crash due to an unobserved exception. An unobserved exception is basically an exception thrown from a task, which no other entity (be it the caller or some later continuation) observed (typically by calling _task::wait_ or _task::get_). In PPLX, such exceptions crash the process ([in .NET they used to, and still may depending on configuration](http://blogs.msdn.com/b/pfxteam/archive/2011/09/28/task-exception-handling-in-net-4-5.aspx)).
+I work at Microsoft and in our group we are making extensive use of this library (we develop an iOS application). Recently, I encountered an interesting crash due to an unobserved exception. An unobserved exception is basically an exception thrown from a task, which no other entity (be it the caller or some later continuation) observed (typically by calling _task::wait_ or _task::get_). In PPLX, such exceptions crash the process ([in .NET they used to, and still may depending on configuration](https://blogs.msdn.com/b/pfxteam/archive/2011/09/28/task-exception-handling-in-net-4-5.aspx)).
 
 When an unobserved PPLX exception occurs, the debugger will break in the following location inside _pplxtasks.h:_
 

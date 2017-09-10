@@ -12,7 +12,7 @@ tags:
   - Seinfeld
   - Work-Life-Balance
 ---
-A [great man once said](http://www.youtube.com/watch?v=W-Cz-LK16g4):
+A [great man once said](https://www.youtube.com/watch?v=W-Cz-LK16g4):
 
 > <span style="color:#000000;">I never get enough sleep. I stay up late at night, cause I&#8217;m Night Guy. Night Guy wants to stay up late. &#8216;What about getting up after five hours sleep?&#8217;, oh that&#8217;s Morning Guy&#8217;s problem&#8230; That&#8217;s not my problem, I&#8217;m Night Guy &#8211; I stay up as late as I want! So you get up in the morning, you&#8217;re exhausted, groggy&#8230; oooh I hate that Night Guy!</span>
 > 

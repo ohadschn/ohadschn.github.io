@@ -17,7 +17,7 @@ Like many other Web sites, OhadSoft makes use of log files. The information insi
 
 **Cookies and Web Beacons**
 
-www.ohadsoft.com does use cookies to store information about visitors preferences, record user-specific information on which pages the user access or visit, customize Web page content based on visitors browser type or other information that the visitor sends via their browser. In addition, our advertising partner &#8220;Google AdSense&#8221; uses cookies (such as the DoubleClick cookie) and/or web beacons to report how your ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to our website. You can read more about the cookies used by Google Analytics advertising features by going to the  [Google Analytics Privacy Policy page](http://www.google.com/policies/technologies/ads/). 
+www.ohadsoft.com does use cookies to store information about visitors preferences, record user-specific information on which pages the user access or visit, customize Web page content based on visitors browser type or other information that the visitor sends via their browser. In addition, our advertising partner &#8220;Google AdSense&#8221; uses cookies (such as the DoubleClick cookie) and/or web beacons to report how your ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to our website. You can read more about the cookies used by Google Analytics advertising features by going to the  [Google Analytics Privacy Policy page](https://www.google.com/policies/technologies/ads/). 
 
 **Google AdSense**
 

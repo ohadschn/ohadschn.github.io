@@ -112,5 +112,5 @@ function Call-CommandWithRetries
 
 References:
 
-  * <a href="http://stackoverflow.com/questions/10666035/difference-between-and-lastexitcode-in-powershell" target="_blank">http://stackoverflow.com/questions/10666035/difference-between-and-lastexitcode-in-powershell</a>
-  * <a href="http://stackoverflow.com/questions/24222088/powershell-capture-program-stdout-and-stderr-to-seperate-variables" target="_blank">http://stackoverflow.com/questions/24222088/powershell-capture-program-stdout-and-stderr-to-seperate-variables</a>
+  * <a href="https://stackoverflow.com/questions/10666035/difference-between-and-lastexitcode-in-powershell" target="_blank">https://stackoverflow.com/questions/10666035/difference-between-and-lastexitcode-in-powershell</a>
+  * <a href="https://stackoverflow.com/questions/24222088/powershell-capture-program-stdout-and-stderr-to-seperate-variables" target="_blank">https://stackoverflow.com/questions/24222088/powershell-capture-program-stdout-and-stderr-to-seperate-variables</a>
