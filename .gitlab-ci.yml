@@ -4,8 +4,13 @@ variables:
   JEKYLL_ENV: production
 
 before_script:
+  - set -eo pipefail
   - bundle install
 
+after_script:
+  - set -eo pipefail
+  - curl -X DELETE "https://api.cloudflare.com/client/v4/zones/9fb9447e3887048b5f9a23c9697bac46/purge_cache" -H "X-Auth-Email: ohad188@gmail.com" -H "X-Auth-Key: $CLOUDFLARE_API_KEY" -H "Content-Type: application/json" --data '{"purge_everything":true}' -v
+  
 test:
   stage: test
   script:
@@ -19,6 +24,7 @@ test:
 pages:
   stage: deploy
   script:
+  - set -eo pipefail
   - apt-get update -y
   - apt-get install -y locales
   - echo "en_US UTF-8" > /etc/locale.gen
