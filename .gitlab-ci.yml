@@ -9,7 +9,19 @@ before_script:
 
 after_script:
   - set -eo pipefail
-  - curl -X DELETE "https://api.cloudflare.com/client/v4/zones/9fb9447e3887048b5f9a23c9697bac46/purge_cache" -H "X-Auth-Email: ohad188@gmail.com" -H "X-Auth-Key: $CLOUDFLARE_API_KEY" -H "Content-Type: application/json" --data '{"purge_everything":true}' -v
+  - >-
+        curl
+        "https://api.cloudflare.com/client/v4/zones/9fb9447e3887048b5f9a23c9697bac46/purge_cache"
+        -H "X-Auth-Email: ohad188@gmail.com"
+        -H "X-Auth-Key: $CLOUDFLARE_API_KEY"
+        -H "Content-Type: application/json"
+        -X DELETE
+        --data '
+        {
+        "purge_everything":true
+        }
+        '
+        -v
   
 test:
   stage: test
