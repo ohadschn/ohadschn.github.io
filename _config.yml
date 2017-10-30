@@ -219,17 +219,13 @@ defaults:
       comments: true
       share: true
       related: true
-      header:
-        image: images/landscape-1314405.jpg
-  - scope:
-      path: ""
-      type: pages
-    values:
-      header:
-        image: images/landscape-1314405.jpg
-
 
 theme: minimal-mistakes-jekyll
+
+footer_scripts:
+  - /assets/js/main.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js
+  - /assets/js/images.js
 
 strict_front_matter: true
 liquid:
