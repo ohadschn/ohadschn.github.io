@@ -9,7 +9,7 @@ var img = cl.image("sergei-akulich-39911-cropped_navwyr",
 });
 $(img).addClass("page__hero-image");
 
-$heroDiv = $('<div class="page__hero"></div>')
+$heroDiv = $('<div class="page__hero"></div>');
 $heroDiv.append(img);
 $heroDiv.insertAfter(".masthead");
 
