@@ -5,9 +5,9 @@ var img = cl.image("sergei-akulich-39911-cropped_navwyr",
     dpr: "auto", 
     responsive: "true",
     crop: "scale", 
-    responsive_placeholder: "blank"
+    responsive_placeholder: "blank",
+    className: "page__hero-image"
 });
-$(img).addClass("page__hero-image");
 
 $heroDiv = $('<div class="page__hero"></div>');
 $heroDiv.append(img);
