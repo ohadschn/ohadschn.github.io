@@ -15,4 +15,6 @@ $( document ).ready(function() {
     $heroDiv.insertAfter(".masthead");
     
     cl.responsive();
+
+    $(".page__footer-copyright").append(' Header photo by <a href="https://unsplash.com/photos/ZNkvxIPPVeE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergei Akulich</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.');
 });
