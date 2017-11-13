@@ -13,7 +13,7 @@ name                     : "Ohad Schneider"
 description              : "Software with Style"
 url                      : "https://www.ohadsoft.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : ohadschn/ohadschn.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -77,7 +77,7 @@ author:
   stackoverflow    : "67824/ohad-schneider"
   steam            :
   tumblr           :
-  twitter          : "OhadSchneider"
+  twitter          :
   vine             :
   weibo            :
   xing             :

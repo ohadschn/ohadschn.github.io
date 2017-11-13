@@ -7,7 +7,21 @@
 @import "minimal-mistakes";
 
 html {
-    @include breakpoint($x-large) {
-      font-size: 20px;
-    }
+  @include breakpoint($x-large) {
+    font-size: 20px;
   }
+}
+
+.social-icons {
+  .fa-code {
+    color: #0292ca;
+  }
+
+  .fa-steam, .fa-microphone {
+    color: #000000;
+  }
+
+  .fa-desktop {
+    color: #ea0189;
+  }
+}
