@@ -226,6 +226,7 @@ footer_scripts:
   - /assets/js/main.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js
   - /assets/js/images.js
+  - /assets/js/featured-posts.js
 
 strict_front_matter: true
 liquid:
