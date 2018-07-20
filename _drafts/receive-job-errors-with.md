@@ -1,0 +1,1 @@
+When the powershell process spawned by Start-Job is killed externally (e.g. task manager), receive job will throw `System.Management.Automation.Remoting.PSRemotingTransportException: The background process reported an error with the following message: .` (FullyQualifiedErrorId : JobFailure)
